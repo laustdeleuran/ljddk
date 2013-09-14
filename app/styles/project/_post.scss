@@ -1,0 +1,81 @@
+/**
+* Post
+*
+* @section Block
+* @author  laustdeleuran
+*/
+.post {
+	@extend %clearfix-after;
+
+	margin: em($unit);
+	padding-bottom: em($unit);
+	border-bottom: 1px solid $color-grey-light;
+
+	position: relative;
+
+	h1 {
+		@extend .type__h3;
+
+		a {
+			color: inherit;
+		}
+	}
+	img {
+		display: block;
+		@include trailer(1);
+		max-width: em($unit * 5);
+		width: auto;
+		height: auto;
+	}
+	iframe {
+		@include trailer(1);
+		max-width: 100%;
+	}
+	.post__meta,
+	p {
+		max-width: em($unit * 5);
+	}
+}
+.post__link,
+.post__quote,
+.post__video,
+.post__audio,
+.post__text,
+.post__conversation,
+.post__photo {}
+.post__meta {
+	max-width: em(5 * $unit);
+	overflow: hidden;
+
+	font-weight: 100;
+
+	a {
+		margin-right: 0.5em;
+
+		color: $color-grey-light;
+	}
+}
+.post__permalink {
+	@extend .type__h3;
+
+	border: none;
+	margin: 0;
+	float: right;
+
+	color: $color-black;
+
+	&:hover {
+		color: $color-action;
+	}
+}
+.post__quote {
+	cite {
+		font-style: normal;
+		font-weight: 700;
+	}
+}
+.post__photo {
+	> a {
+		border: none;
+	}
+}

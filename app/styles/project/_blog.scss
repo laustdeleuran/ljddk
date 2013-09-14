@@ -1,0 +1,15 @@
+/**
+* Blog container
+*
+* @section Block
+* @author  laustdeleuran
+*/
+.blog {}
+.blog__intro {
+	padding-bottom: em($unit);
+	border-bottom: 1px solid $color-grey-light;
+
+	h1 a {
+		color: inherit;
+	}
+}

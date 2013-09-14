@@ -1,0 +1,13 @@
+/**
+* Article
+*
+* @section Block
+* @author  laustdeleuran
+*/
+.article {
+	margin: em($unit);
+
+	p {
+		max-width: em(5 * $unit);
+	}
+}

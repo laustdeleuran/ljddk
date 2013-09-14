@@ -1,0 +1,39 @@
+/*
+ * Vertic JS - Site functional wrapper
+ * http://labs.vertic.com
+ *
+ * Copyright 2012, Vertic A/S
+ *
+ */
+
+/*jslint plusplus: true, vars: true, browser: true, white:true*/
+/*global require: true, Modernizr: true*/
+
+require.config({
+	paths: {
+		'jquery': '../components/jquery/jquery',
+	}
+});
+
+require(['framework/core', 'jquery'], function(core, $) {
+	'use strict';
+
+	// Expose core as vertic first for debugging reasons
+	window.vertic = core;
+
+	// Document ready
+	$(function () {
+
+		// Detect intro load
+		var $intro = $('.intro'),
+		bg = $intro.find('.intro__bg').css('background-image');
+		if (bg) {
+			var src = bg.replace(/(^url\()|(\)$|[\"\'])/g, ''),
+			$img = $('<img>').attr('src', src).on('load', function() {
+				$img.remove();
+				$intro.addClass('intro--init');
+			});
+		}
+
+	});
+});

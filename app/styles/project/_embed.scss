@@ -1,0 +1,16 @@
+/**
+* Embed container
+*
+* @section Block
+* @author  laustdeleuran
+*/
+.embed {
+	width: auto;
+	height: auto;
+
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: em($unit);	
+}

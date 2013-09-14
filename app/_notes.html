@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]><html lang="en" class="no-js old-ie"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en" class="no-js"><!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Laust Johan Deleuran - ljd.dk" />
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=yes" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	{block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+
+	<title>{Title} {block:PostTitle} {PostTitle} {/block:PostTitle}</title>
+
+	<link rel="shortcut icon" href="http://ljd.dk/images/favicon.jpg" />
+	<link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Playfair+Display:400,700,900,400italic,700italic" rel="stylesheet" type="text/css" />
+	<link rel="alternate" type="application/rss+xml" href="{RSS}">
+
+	<meta name="viewport"  content="width=660" />
+	<link rel="apple-touch-icon" href="{PortraitURL-128}"></link>
+
+	<meta name="text:Google Analytics ID" content="" />
+	<meta name="text:Disqus Shortname" content="" />
+
+	<link rel="stylesheet" href="http://ljd.dk/styles/style.css" media="all" />
+	<link rel="stylesheet" href="http://ljd.dk/styles/print.css" media="print" />
+
+	<style type="text/css" media="screen">
+		{CustomCSS}
+	</style>
+
+	<script src="http://ljd.dk/components/modernizr/modernizr.js"></script>
+	<script data-main="http://ljd.dk/scripts/main" src="http://ljd.dk/components/requirejs/require.js"></script>
+
+</head>
+<body>
+
+	<div class="blog">
+
+		{block:HasPages}
+			<nav class="blog__pages">
+				{block:Pages}<a href="{URL}">{Label}</a> &nbsp;&nbsp;{/block:Pages}
+			</nav>
+		{/block:HasPages}
+
+		<article class="article blog__intro">
+
+			<h1><a href="/">{Title}</a></h1>
+
+			{block:Description}
+				<p>
+					{Description}
+				</p>
+			{/block:Description}
+
+		</article>
+
+		{block:Posts}
+		
+			<article class="post">
+
+				{block:Quote}
+
+					<blockquote class="post__quote">
+
+						<p>{Quote}</p>
+
+						{block:Source}
+							<cite>{Source}</cite>
+						{/block:Source}
+
+					</blockquote>
+
+				{/block:Quote}
+
+
+				{block:Photo}
+
+					<figure class="post__photo">
+
+						{LinkOpenTag}
+							<img src="{PhotoURL-500}" alt="{PhotoAlt}"/>
+						{LinkCloseTag}
+
+						{block:Caption}
+							<figcaption>{Caption}</figcaption>
+						{/block:Caption}
+
+					</figure>
+
+				{/block:Photo}
+
+
+				{block:Video}
+			
+					<figure class="post__video">
+						
+						{Video-500}
+
+						{block:Caption}
+							<figcaption>{Caption}</figcaption>
+						{/block:Caption}
+
+					</figure>
+
+				{/block:Video}   
+
+
+				{block:Link}
+			
+					<div class="post__link">
+						<h1><a href="{URL}" {Target}>{Name}</a></h1>
+
+						{block:Description}
+							<p>{Description}</p>
+						{/block:Description}
+					</div>
+
+				{/block:Link}
+
+
+				{block:Chat}
+
+					<div class="post__conversation">
+
+						{block:Title}
+							<h1>{Title}</h1>
+						{/block:Title}
+
+						<ul>
+							{block:Lines}
+								<li class="member-{UserNumber}">
+									{block:Label}
+										<span class="label">{Label}</span>
+									{/block:Label}
+									{Line}
+								</li>
+							{/block:Lines}
+						</ul>
+					</div>
+
+				{/block:Chat}
+
+
+				{block:Text}
+
+					<div class="post__text">
+
+						{block:Title}
+						<h1>{Title}</h1>
+						{/block:Title}
+
+						{Body}
+
+					</div>
+
+				{/block:Text}
+
+
+				{block:Audio}
+
+					<div class="post__audio">
+
+						{AudioPlayerGrey}
+
+						<div class="post__audio-details">
+							{block:Artist}
+								<cite>{Artist}</cite>
+							{/block:Artist} 
+							&ndash; 
+							{block:TrackName}
+								{TrackName}
+							{/block:TrackName} 
+							<span class="playcount">({PlayCountWithLabel})</span>
+						</div>
+						<div class="post__audio-caption">
+							{block:Caption}
+								{Caption}
+							{/block:Caption}
+						</div>
+
+						{block:ExternalAudio}
+							<p><a href="{ExternalAudioURL}">{lang:Download}</a></p>
+						{/block:ExternalAudio}	
+
+					</div>
+
+				{/block:Audio}
+
+				<div class="post__meta">
+					{block:Date}
+						<a href="{Permalink}">{TimeAgo}</a>
+					{/block:Date}
+					<a href="{Permalink}">{lang:Notes} ({NoteCount})</a>
+					
+					<a href="{Permalink}" class="post__permalink" title="Permalink">&rarr;</a>
+				</div>
+			
+
+				{block:PostNotes}
+					<div class="post__notes">
+						{PostNotes}
+					</div>
+				{/block:PostNotes}
+
+			</article>
+
+		{/block:Posts}
+	
+
+		{block:Pagination}
+
+			<nav class="pagination">
+ 
+				{block:NextPage}
+					<a href="{NextPage}" class="pagination__prev">&larr; {lang:Older}</a>
+				{/block:NextPage}
+				
+				<span class="pagination__number"> &nbsp; {CurrentPage}/{TotalPages} &nbsp;</span>
+
+				{block:PreviousPage}
+					<a href="{PreviousPage}" class="pagination__next">{lang:Newer} &rarr;</a>
+				{/block:PreviousPage}
+
+			</nav>
+
+		 {/block:Pagination}
+		
+		{block:PermalinkPagination}
+			
+			<div id="navigation">
+				
+				{block:PreviousPost}
+					<a href="{PreviousPost}" id="nav-prev" style="text-transform:lowercase;">&larr; {lang:Older}</a>
+				{/block:PreviousPost}
+				<span class="page_number"> &nbsp; {CurrentPage}/{TotalPages} &nbsp;</span>
+				{block:NextPost}
+					<a href="{NextPost}" id="nav-next" style="text-transform:lowercase;">{lang:Newer} &rarr;</a>
+				{/block:NextPost}
+
+			</div>
+		
+		{/block:PermalinkPagination}
+		
+		
+		{block:IfGoogleAnalyticsID}
+			<script type="text/javascript">
+
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', '{text:Google Analytics ID}']);
+				_gaq.push(['_setDomainName', 'ljd.dk']);
+				_gaq.push(['_trackPageview']);
+
+				(function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+
+			</script>
+		{block:IfGoogleAnalyticsID}
+
+		{block:IfDisqusShortname}
+			<script type="text/javascript">
+				//<![CDATA[
+				(function() {
+					var links = document.getElementsByTagName('a');
+					var query = '?';
+					for (var i = 0; i < links.length; i++) {
+						if (links[i].href.indexOf('#disqus_thread') >= 0) {
+							query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+						}
+					}
+					document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/{text:Disqus Shortname}/get_num_replies.js' + query + '"></' + 'script>');
+				})();
+				//]]>
+			</script>
+		{/block:IfDisqusShortname}
+	
+	</div>
+
+</body>
+</html>

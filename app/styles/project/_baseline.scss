@@ -1,0 +1,31 @@
+/**
+* Baseline styles
+*
+* @section Base
+* @author  laustdeleuran
+*/
+html {
+	font-size: percentage($font-size-base / 16px);
+	font-family: $font-stack-sansserif;
+	font-weight: 300;
+	line-height: $line-height;
+	text-rendering: optimizeLegibility;
+	color: $color-black;
+}
+a {
+	//@include box-sizing(border-box);
+	//display:inline-block;
+	border-bottom:1px solid transparent;
+
+	color: $color-action-dark;
+	text-decoration: none;
+	vertical-align: baseline;
+
+	@include transition(0.2s ease);
+
+	&:hover,
+	&:active,
+	&:focus {
+		border-bottom-color: $color-action-dark;
+	}
+}
