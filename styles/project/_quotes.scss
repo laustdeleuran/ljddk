@@ -25,13 +25,13 @@
 	}
 	p,
 	cite {
-		margin:0 0 0 em($unit);
+		margin: 0 0 0 em($unit);
 	}
 	p:before {
-		content:"»";
+		content: "»";
 	}
 	p:after {
-		content:"«";
+		content: "«";
 	}
 	cite {
 		display: block;
@@ -46,5 +46,21 @@
 		height: auto;
 
 		@include border-radius(100%);
+	}
+}
+@media screen and (max-width:500px) {
+	.quotes {
+		li {
+			display: block;
+			max-width: none;
+			margin-right: 0;
+		}
+		img {
+			display:none;
+		}
+		p,
+		cite {
+			margin: 0;
+		}
 	}
 }

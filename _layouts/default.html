@@ -20,12 +20,6 @@
 </head>
 <body>
 
-	<div class="content">
-
-		{{ content }}
-
-	</div>
-
 	<nav class="nav">
 		<ul>
 			{% for node in site.pages %}
@@ -52,6 +46,12 @@
 			{% endfor %}
 		</ul>
 	</nav>
+
+	<div class="content">
+
+		{{ content }}
+
+	</div>
 
 </body>
 </html>

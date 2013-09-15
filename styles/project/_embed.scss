@@ -12,5 +12,11 @@
 	top: 0;
 	right: 0;
 	bottom: 0;
-	left: em($unit);	
+	left: em($unit);
+}
+@media screen and (max-width:600px) {
+	.embed {
+		top: em($unit);
+		left: 0;
+	}
 }

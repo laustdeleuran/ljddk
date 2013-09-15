@@ -36,21 +36,21 @@ h6,
 }
 h1,
 .type__h1 {
-	@include adjust-font-size-to(56px);
-	@include leader(2, 56px);
-	@include trailer(1, 56px);
+	@include adjust-font-size-to(63px);
+	@include leader(2, 63px);
+	@include trailer(1, 63px);
 }
 h2,
 .type__h2 {
-	@include adjust-font-size-to(40px);
-	@include leader(2, 40px);
-	@include trailer(1, 40px);
+	@include adjust-font-size-to(45px);
+	@include leader(2, 45px);
+	@include trailer(1, 45px);
 }
 h3,
 .type__h3 {
-	@include adjust-font-size-to(24px, 1.5);
-	@include leader(2, 24px);
-	@include trailer(1, 24px);
+	@include adjust-font-size-to(27px, 1.5);
+	@include leader(2, 27px);
+	@include trailer(1, 27px);
 }
 .type__blink {
 	-webkit-animation: typeBlink 0.5s steps(1) infinite alternate;
@@ -70,7 +70,7 @@ figcaption {
 	@include trailer(1);
 }
 code {
-	@include adjust-font-size-to(12px);
+	@include adjust-font-size-to(16px);
 }
 @-webkit-keyframes typeBlink {
 	0% { opacity: 0; }
@@ -86,4 +86,54 @@ code {
 	0% { opacity: 0; }
 	50% { opacity: 1; }
 	100% { opacity: 0; }
+}
+@media screen and (max-width:800px) {
+	h1,
+	.type__h1 {
+		@include adjust-font-size-to(45px);
+		@include leader(2, 45px);
+		@include trailer(1, 45px);
+	}
+	h2,
+	.type__h2 {
+		@include adjust-font-size-to(32px);
+		@include leader(2, 32px);
+		@include trailer(1, 32px);
+	}
+	h3,
+	.type__h3 {
+		@include adjust-font-size-to(24px, 1.5);
+		@include leader(2, 24px);
+		@include trailer(1, 24px);
+	}
+	.type__blink {
+		-webkit-animation: typeBlink 0.5s steps(1) infinite alternate;
+		-moz-animation: typeBlink 0.5s steps(1) infinite alternate;
+	  animation: typeBlink 0.5s steps(1) infinite alternate;
+	}
+}
+@media screen and (max-width:400px) {
+	h1,
+	.type__h1 {
+		@include adjust-font-size-to(32px);
+		@include leader(2, 32px);
+		@include trailer(1, 32px);
+	}
+	h2,
+	.type__h2 {
+		@include adjust-font-size-to(24px, 1.5);
+		@include leader(2, 24px);
+		@include trailer(1, 24px);
+	}
+	h3,
+	.type__h3 {
+		@include adjust-font-size-to(18px);
+		@include leader(2);
+		@include trailer(1);
+	}
+	.type__blink {
+		-webkit-animation: typeBlink 0.5s steps(1) infinite alternate;
+		-moz-animation: typeBlink 0.5s steps(1) infinite alternate;
+	  animation: typeBlink 0.5s steps(1) infinite alternate;
+	}
 }

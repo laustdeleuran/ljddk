@@ -5,10 +5,10 @@
 * @author  laustdeleuran
 */
 html {
-	font-size: percentage($font-size-base / 16px);
+	font-size: percentage($base-font-size / 16px);
 	font-family: $font-stack-sansserif;
 	font-weight: 300;
-	line-height: $line-height;
+	line-height: $base-line-height;
 	text-rendering: optimizeLegibility;
 	color: $color-black;
 }
