@@ -2,7 +2,7 @@ _site
 /.sass-cache
 /node_modules
 /bower_components
-/app/css
-/app/components
+/css
+/scripts/components
 ._*
 .DS_Store
