@@ -17,3 +17,9 @@
 
 sass_options = {:debug_info=>true} # by Compass.app 
 line_comments = false # by Compass.app 
+
+http_path = "/"
+css_dir = "styles"
+sass_dir = "styles"
+images_dir = "images"
+javascripts_dir = "scripts"
