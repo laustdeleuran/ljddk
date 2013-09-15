@@ -3,6 +3,5 @@ _site
 /node_modules
 /bower_components
 /css
-/scripts/components
 ._*
 .DS_Store
