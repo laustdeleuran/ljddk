@@ -25,13 +25,39 @@ require(['framework/core', 'jquery'], function(core, $) {
 	$(function () {
 
 		// Detect intro load
-		var $intro = $('.intro'),
-		bg = $intro.find('.intro__bg').css('background-image');
-		if (bg) {
-			var src = bg.replace(/(^url\()|(\)$|[\"\'])/g, ''),
+		var $intro, $bg, $credit, $img, images, image;
+		$intro = $('.intro');
+		if ($intro.length) {
+			images = [
+				{
+					url: '/images/content/intro-1.jpg',
+					credit: 'Photo by <a href="http://www.jordanisip.com" class="fn n url" target="_blank">Jordan Isip</a>'
+				},
+				{
+					url: '/images/content/intro-2.jpg',
+					credit: 'Photo by <span class="fn n url">Kastania Rasmussen</span>'
+				},
+				{
+					url: '/images/content/intro-3.jpg',
+					credit: 'Photo by <a href="http://www.jordanisip.com" class="fn n url" target="_blank">Jordan Isip</a>'
+				},
+				{
+					url: '/images/content/intro-4.jpg',
+					credit: 'Photo by <a href="http://www.jordanisip.com" class="fn n url" target="_blank">Jordan Isip</a>'
+				}
+			];
+			image = Math.floor( Math.random() * images.length );
+
+			$bg = $intro.find('.intro__bg');
+			$credit = $intro.find('.intro__credit');
+
+			var src = images[image].url;
 			$img = $('<img>').attr('src', src).on('load', function() {
+				$bg.css('background-image', 'url(' + src + ')');
+				$credit.html(images[image].credit);
 				$img.remove();
 				$intro.addClass('intro--init');
+				debugger;
 			});
 		}
 
