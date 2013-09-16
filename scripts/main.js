@@ -61,8 +61,9 @@ require(['framework/core', 'jquery'], function(core, $) {
 		}
 
 		// Make external links open in new windows
-		$('a:external').not(function () {
-			return $(this).attr('href').indexOf(window.location.hostname);
+		$('a').not(function () {
+			var href = $(this).attr('href');
+			return href.indexOf(window.location.hostname) > -1 || href.indexOf('://') < 0;
 		}).attr('target', '_blank');
 
 	});
