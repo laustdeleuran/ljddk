@@ -33,10 +33,10 @@ require(['framework/core', 'jquery'], function(core, $) {
 					url: '/images/content/intro-1.jpg',
 					credit: 'Photo by <a href="http://www.jordanisip.com" class="fn n url" target="_blank">Jordan Isip</a>'
 				},
-				{
-					url: '/images/content/intro-2.jpg',
-					credit: 'Photo by <span class="fn n url">Kastania Rasmussen</span>'
-				},
+//				{
+//					url: '/images/content/intro-2.jpg',
+//					credit: 'Photo by <span class="fn n url">Kastania Rasmussen</span>'
+//				},
 				{
 					url: '/images/content/intro-3.jpg',
 					credit: 'Photo by <a href="http://www.jordanisip.com" class="fn n url" target="_blank">Jordan Isip</a>'
