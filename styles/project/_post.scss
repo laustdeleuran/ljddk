@@ -13,7 +13,7 @@
 
 	position: relative;
 
-	h1 {
+	h1, h2, h3 {
 		@extend .type__h3;
 
 		a {
@@ -32,6 +32,10 @@
 		max-width: 100%;
 	}
 	.post__meta,
+	ul,
+	ol,
+	li,
+	blockquote,
 	p {
 		max-width: em($unit * 5);
 	}
@@ -42,6 +46,15 @@
 		p:last-of-type:after {
 			content:"«";
 		}
+	}
+	ul li {
+		list-style: disc;
+	}
+	ol li {
+		list-style: upper-roman;
+	}
+	li {
+		display: list-item;
 	}
 }
 .post__link,
@@ -76,6 +89,25 @@
 		}
 	}
 }
+.post .post__text {
+	h1 {
+		@extend .type__h2;
+	}
+	blockquote {
+		@include box-sizing(border-box);
+		@include trailer(1);
+		padding: 0 em($unit / 2);
+		
+		color: $color-grey-medium;
+
+		p:before {
+			content:"";
+		}
+		p:last-of-type:after {
+			content:"";
+		}
+	}
+}
 .post__quote {
 	p {
 		@extend .type__h3;	
@@ -88,6 +120,15 @@
 .post__photo {
 	> a {
 		border: none;
+	}
+}
+.post__photo--feature {
+	img {
+		max-width: 100%;
+	}
+	& ~ .post__meta .post__notes-count,
+	& ~ .post__meta .post__permalink {
+		display: none;
 	}
 }
 @media screen and (max-width:700px) {
