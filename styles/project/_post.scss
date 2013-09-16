@@ -131,6 +131,25 @@
 		display: none;
 	}
 }
+.post__notes {
+	@include leader(2);
+
+	ol,
+	li {
+		list-style: none;
+	}
+	li {
+		overflow: hidden;
+		margin: 0;
+	}
+	img {
+		float: left;
+		margin-right: 5px;
+	}
+	.avatar_frame {
+		display: none;
+	}
+}
 @media screen and (max-width:700px) {
 	.post {
 		margin: em($unit) em($unit / 2);
