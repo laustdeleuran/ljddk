@@ -13,6 +13,13 @@
 	right: 0;
 	bottom: 0;
 	left: em($unit);
+
+	iframe,
+	object,
+	embed,
+	video {
+		display: block;
+	}
 }
 @media screen and (max-width:600px) {
 	.embed {

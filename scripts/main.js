@@ -57,7 +57,6 @@ require(['framework/core', 'jquery'], function(core, $) {
 				$credit.html(images[image].credit);
 				$img.remove();
 				$intro.addClass('intro--init');
-				debugger;
 			});
 		}
 
