@@ -60,5 +60,10 @@ require(['framework/core', 'jquery'], function(core, $) {
 			});
 		}
 
+		// Make external links open in new windows
+		$('a:external').not(function () {
+			return $(this).attr('href').indexOf(window.location.hostname);
+		}).attr('target', '_blank');
+
 	});
 });
