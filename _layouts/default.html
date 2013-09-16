@@ -22,27 +22,20 @@
 
 	<nav class="nav">
 		<ul>
-			{% for node in site.pages %}
-				{% if node.hideFromMenu %}
-				{% else %}
-					{% if page.url == node.url %}
-						<li><a href="{{node.url}}" class="is-active">
-							{% if node.menuTitle %}
-								{{node.menuTitle}}
-							{% else %}
-								{{node.title}}
-							{% endif %}
-						</a></li>
-					{% else %}
-						<li><a href="{{node.url}}">
-							{% if node.menuTitle != null %}
-								{{node.menuTitle}}
-							{% else %}
-								{{node.title}}
-							{% endif %}
-						</a></li>
+			{% for weight in (1..10) %}
+				{% for p in site.pages %}
+					{% if p.weight == weight %}
+						<li>
+							<a {% if p.url == page.url %}class="nav--active"{% endif %} href="{{ p.url }}">
+								{% if p.menuTitle %}
+									{{p.menuTitle}}
+								{% else %}
+									{{p.title}}
+								{% endif %}
+							</a>
+						</li>
 					{% endif %}
-				{% endif %}
+				{% endfor %}
 			{% endfor %}
 		</ul>
 	</nav>

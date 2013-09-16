@@ -547,7 +547,7 @@ a:hover, a:active, a:focus {
   color: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_nav\.scss}line{font-family:\0000348}}
-.nav a.is-active {
+.nav a.nav--active {
   background-color: rgba(255, 255, 255, 0.05);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_nav\.scss}line{font-family:\0000352}}
@@ -1152,42 +1152,44 @@ code {
 }
 
 @media screen and (max-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_intro\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_intro\.scss}line{font-family:\00003210}}
   .intro__header,
   .intro__content {
     font-size: 2em;
     line-height: 1.38889em;
+    padding-top: 2.77778em;
   }
 }
 @media screen and (max-width: 900px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_intro\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_intro\.scss}line{font-family:\00003216}}
   .intro {
     padding: 0 2.77778em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_intro\.scss}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_intro\.scss}line{font-family:\00003220}}
   .intro__header,
   .intro__content {
     font-size: 1.5em;
     line-height: 1.38889em;
+    padding-top: 3.7037em;
   }
 }
 @media screen and (max-width: 700px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_intro\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_intro\.scss}line{font-family:\00003226}}
   .intro__header {
     float: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_intro\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_intro\.scss}line{font-family:\00003229}}
   .intro__content {
     padding-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_intro\.scss}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_intro\.scss}line{font-family:\00003232}}
   .intro__content:before {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_intro\.scss}line{font-family:\00003233}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_intro\.scss}line{font-family:\00003236}}
   .intro__content-inner {
     -webkit-animation: introContentFadeIn 0.75s cubic-bezier(0.165, 0.84, 0.44, 1) 1s both;
     -moz-animation: introContentFadeIn 0.75s cubic-bezier(0.165, 0.84, 0.44, 1) 1s both;
@@ -1195,14 +1197,14 @@ code {
   }
 }
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_intro\.scss}line{font-family:\00003240}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_intro\.scss}line{font-family:\00003243}}
   .intro {
     top: 5.55556em;
     left: 0;
   }
 }
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_intro\.scss}line{font-family:\00003246}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_intro\.scss}line{font-family:\00003249}}
   .intro {
     padding: 1.38889em;
   }
