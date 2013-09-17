@@ -32,19 +32,15 @@ require(['framework/core', 'jquery'], function(core, $) {
 				{
 					url: '/images/content/intro-1.jpg',
 					credit: 'Photo by <a href="http://www.jordanisip.com" class="fn n url" target="_blank">Jordan Isip</a>'
-				}//,
-//				{
-//					url: '/images/content/intro-2.jpg',
-//					credit: 'Photo by <span class="fn n url">Kastania Rasmussen</span>'
-//				},
-//				{
-//					url: '/images/content/intro-3.jpg',
-//					credit: 'Photo by <a href="http://www.jordanisip.com" class="fn n url" target="_blank">Jordan Isip</a>'
-//				},
-//				{
-//					url: '/images/content/intro-4.jpg',
-//					credit: 'Photo by <a href="http://www.jordanisip.com" class="fn n url" target="_blank">Jordan Isip</a>'
-//				}
+				},
+				{
+					url: '/images/content/intro-2.jpg',
+					credit: 'Photo by <a href="https://www.facebook.com/kastania.rasmussen" class="fn n url" target="_blank">Kastania Rasmussen</span>'
+				},
+				{
+					url: '/images/content/intro-3.jpg',
+					credit: 'Photo by <a href="http://www.jordanisip.com" class="fn n url" target="_blank">Jordan Isip</a>'
+				}
 			];
 			image = Math.floor( Math.random() * images.length );
 
@@ -66,5 +62,27 @@ require(['framework/core', 'jquery'], function(core, $) {
 			return href.indexOf(window.location.hostname) > -1 || href.indexOf('://') < 0;
 		}).attr('target', '_blank');
 
+
+		// Avoid widows
+		(function ($) {
+			$.fn.avoidWidows = function () {
+				return this.each(function () {
+					var $elem = $(this), wordArray = $elem.text().split(" ");
+					if (wordArray.length > 1) {
+						wordArray[wordArray.length-2] += "&nbsp;" + wordArray[wordArray.length-1];
+						wordArray.pop();
+						$elem.html(wordArray.join(" "));
+					}
+				});
+			};
+		}($));
+		$('.post').find('h1, h2, h3').each (function () {
+			var $header = $(this), $link = $header.children('a');
+			if ($link.length) {
+				$link.avoidWidows();
+			} else {
+				$header.avoidWidows();
+			}
+		});
 	});
 });
