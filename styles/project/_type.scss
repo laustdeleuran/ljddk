@@ -72,6 +72,20 @@ figcaption {
 code {
 	@include adjust-font-size-to(16px);
 }
+table {
+	@include trailer(1);
+}
+table,
+tr,
+td,
+th {
+	text-align: left;
+	vertical-align: top;
+}
+td,
+th {
+	padding: 0 em($base-line-height / 2) 0 0;
+}
 @-webkit-keyframes typeBlink {
 	0% { opacity: 0; }
 	50% { opacity: 1; }
