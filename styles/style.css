@@ -1254,19 +1254,21 @@ th {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_embed\.scss}line{font-family:\0000326}}
 .embed__title {
-  margin: 0;
+  margin: 0 auto;
+  max-width: 15em;
   position: absolute;
-  right: 1.5873em;
-  bottom: 1.5873em;
-  left: 1.5873em;
-  font-size: 3.5em;
-  line-height: 1.19048em;
+  right: 2.22222em;
+  bottom: 2.22222em;
+  left: 2.22222em;
+  font-size: 2.5em;
+  line-height: 1.11111em;
   color: white;
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
+  text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_embed\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_embed\.scss}line{font-family:\0000342}}
   .embed__title {
     right: 2.77778em;
     bottom: 2.77778em;
@@ -1276,7 +1278,7 @@ th {
   }
 }
 @media screen and (max-width: 900px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_embed\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_embed\.scss}line{font-family:\0000351}}
   .embed__title {
     right: 3.7037em;
     bottom: 3.7037em;
@@ -1286,7 +1288,7 @@ th {
   }
 }
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_embed\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_embed\.scss}line{font-family:\0000360}}
   .embed__title {
     right: 0.92593em;
     bottom: 0.92593em;
@@ -1295,7 +1297,7 @@ th {
     line-height: 1.38889em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_embed\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_embed\.scss}line{font-family:\0000367}}
   .embed {
     top: 5.55556em;
     left: 0;
