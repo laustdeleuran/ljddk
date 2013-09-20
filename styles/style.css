@@ -1256,7 +1256,6 @@ th {
 .embed__title {
   margin: 0;
   position: absolute;
-  top: 1.5873em;
   right: 1.5873em;
   bottom: 1.5873em;
   left: 1.5873em;
@@ -1267,9 +1266,8 @@ th {
 }
 
 @media screen and (max-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_embed\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_embed\.scss}line{font-family:\0000340}}
   .embed__title {
-    top: 2.77778em;
     right: 2.77778em;
     bottom: 2.77778em;
     left: 2.77778em;
@@ -1278,9 +1276,8 @@ th {
   }
 }
 @media screen and (max-width: 900px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_embed\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_embed\.scss}line{font-family:\0000349}}
   .embed__title {
-    top: 3.7037em;
     right: 3.7037em;
     bottom: 3.7037em;
     left: 3.7037em;
@@ -1289,9 +1286,8 @@ th {
   }
 }
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_embed\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_embed\.scss}line{font-family:\0000358}}
   .embed__title {
-    top: 0.92593em;
     right: 0.92593em;
     bottom: 0.92593em;
     left: 0.92593em;
@@ -1299,7 +1295,7 @@ th {
     line-height: 1.38889em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_embed\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_embed\.scss}line{font-family:\0000365}}
   .embed {
     top: 5.55556em;
     left: 0;
