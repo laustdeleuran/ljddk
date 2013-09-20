@@ -244,12 +244,9 @@
 }
 @media screen and (max-width:600px) {
 	.intro {
+		padding: em($base-line-height);
+		
 		top: em($unit);
 		left: 0;
-	}
-}
-@media screen and (max-width:600px) {
-	.intro {
-		padding: em($base-line-height);
 	}
 }
