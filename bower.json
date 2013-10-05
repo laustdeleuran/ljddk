@@ -4,6 +4,7 @@
 	"dependencies": {
 		"requirejs": "latest",
 		"jquery": "~1.9",
-		"modernizr": "latest"
+		"modernizr": "latest",
+		"imagesloaded": "~3.0.4"
 	}
 }

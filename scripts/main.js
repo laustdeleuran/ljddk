@@ -8,6 +8,9 @@
 require.config({
 	paths: {
 		'jquery': 'components/jquery/jquery',
+		'imagesloaded': 'components/imagesloaded/imagesloaded',
+		'eventEmitter/EventEmitter': 'components/eventEmitter/EventEmitter',
+		'eventie/eventie': 'components/eventie/eventie',
 		'waypoints': 'plugins/jquery-waypoints-2.0.3-dev'
 	},
 	shim: {
@@ -18,10 +21,12 @@ require.config({
 require([
 	'framework/core',
 	'jquery',
+	'imagesloaded',
 	'waypoints'
 ], function(
 	core,
-	$
+	$,
+	ImagesLoaded
 ) {
 	'use strict';
 
@@ -114,17 +119,17 @@ require([
 					res = medium;
 				}
 
-				$('<img />').attr('src', res).load(function () {
+				$('<img />').load(function () {
 					$img
 						.attr('src', res)
 						.removeClass('responsive-img--loading');
 
 					$(this).remove();
 					$loading.detach();
-				});
+				}).attr('src', res);
 			};
 
-			$img.load(function () {
+			new ImagesLoaded(this, function () {
 				core.log('load');
 				$img.waypoint({
 					handler: function (dir) {
