@@ -102,6 +102,7 @@ require([
 			low = $img.data('src'),
 			medium = $img.data('medres'),
 			high = $img.data('highres'),
+			lastRes = low,
 			$win = $(window),
 			$loading = $('<div class="responsive-img__loading">Loading&hellip;</div>'),
 			doLoad;
@@ -109,15 +110,20 @@ require([
 			doLoad = function () {
 				var res, width;
 
-				$img.addClass('responsive-img--loading');
-				$loading.insertBefore($img);
-
 				width = $win.width();
 				if (width > 500) {
 					res = high;
 				} else {
 					res = medium;
 				}
+
+				if (res === lastRes) {
+					return false;
+				}
+				lastRes = res;
+
+				$img.addClass('responsive-img--loading');
+				$loading.insertBefore($img);
 
 				$('<img />').load(function () {
 					$img
