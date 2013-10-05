@@ -8,12 +8,17 @@
 require.config({
 	paths: {
 		'jquery': 'components/jquery/jquery',
+		'waypoints': 'plugins/jquery-waypoints-2.0.3-dev'
+	},
+	shim: {
+		waypoints: ['jquery']
 	}
 });
 
 require([
 	'framework/core',
-	'jquery'
+	'jquery',
+	'waypoints'
 ], function(
 	core,
 	$
@@ -84,6 +89,35 @@ require([
 			} else {
 				$header.avoidWidows();
 			}
+		});
+
+		// Lazy images
+		$('.responsive-img').each(function () {
+			var $img = $(this),
+			low = $img.data('src'),
+			medium = $img.data('medres'),
+			high = $img.data('highres'),
+			loaded,
+			doLoad;
+
+			$img.waypoint({
+				handler: function (dir) {
+					if (dir === 'down') {
+						console.log('entering viewport while scrolling down');
+					}
+				},
+				offset: '100%'
+			});
+			$img.waypoint({
+				handler: function (dir) {
+					if (dir === 'up') {
+						console.log('entering viewport while scrolling up');
+					}
+				},
+				offset: function () {
+					return -$(this).height();
+				}
+			});
 		});
 	});
 });
