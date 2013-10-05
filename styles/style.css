@@ -1639,12 +1639,14 @@ th {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003162}}
   .post {
     margin: 2.77778em;
+    padding-bottom: 2.77778em;
   }
 }
 @media screen and (max-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003168}}
   .post {
     margin: 1.38889em;
+    padding-bottom: 1.38889em;
   }
 }
 /**
