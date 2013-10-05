@@ -124,23 +124,25 @@ require([
 				});
 			};
 
-			$img.waypoint({
-				handler: function (dir) {
-					if (dir === 'down') {
-						doLoad();
+			$img.load(function () {
+				$img.waypoint({
+					handler: function (dir) {
+						if (dir === 'down') {
+							doLoad();
+						}
+					},
+					offset: '100%'
+				});
+				$img.waypoint({
+					handler: function (dir) {
+						if (dir === 'up') {
+							doLoad();
+						}
+					},
+					offset: function () {
+						return -$(this).height();
 					}
-				},
-				offset: '100%'
-			});
-			$img.waypoint({
-				handler: function (dir) {
-					if (dir === 'up') {
-						doLoad();
-					}
-				},
-				offset: function () {
-					return -$(this).height();
-				}
+				});
 			});
 		});
 	});
