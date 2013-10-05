@@ -130,7 +130,6 @@ require([
 			};
 
 			new ImagesLoaded(this, function () {
-				core.log('load');
 				$img.waypoint({
 					handler: function (dir) {
 						if (dir === 'down') {
