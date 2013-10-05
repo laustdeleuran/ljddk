@@ -1502,15 +1502,14 @@ th {
   display: block;
   margin-bottom: 1.38889em;
   max-width: 27.77778em;
-  width: auto;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000329}}
 .post iframe {
   margin-bottom: 1.38889em;
   max-width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000338}}
 .post .post__meta,
 .post ul,
 .post ol,
@@ -1519,51 +1518,51 @@ th {
 .post p {
   max-width: 27.77778em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000342}}
 .post blockquote p:before {
   content: "»";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000345}}
 .post blockquote p:last-of-type:after {
   content: "«";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000349}}
 .post ul li {
   list-style: disc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000352}}
 .post ol li {
   list-style: upper-roman;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000355}}
 .post li {
   display: list-item;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000366}}
 .post__meta {
   max-width: 27.77778em;
   overflow: hidden;
   font-weight: 100;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000372}}
 .post__meta a {
   margin-right: 0.5em;
   color: #cccccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000377}}
 .post__meta .post__permalink {
   border: none;
   margin: 0;
   float: right;
   color: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000386}}
 .post__meta .post__permalink:hover {
   color: #56f29c;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000395}}
 .post .post__text blockquote {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1572,78 +1571,78 @@ th {
   padding: 0 2.77778em;
   color: #888888;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003102}}
 .post .post__text blockquote p:before {
   content: "";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003105}}
 .post .post__text blockquote p:last-of-type:after {
   content: "";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003109}}
 .post .post__text img {
   max-width: 100%;
   height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003118}}
 .post__quote cite {
   font-style: normal;
   font-weight: 700;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003124}}
 .post__photo > a {
   border: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003129}}
 .post__photo--feature img {
   max-width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003133}}
 .post__photo--feature ~ .post__meta .post__notes-count, .post__photo--feature ~ .post__meta .post__permalink {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003137}}
 .post__notes {
   margin-top: 2.77778em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003141}}
 .post__notes ol,
 .post__notes li {
   list-style: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003144}}
 .post__notes li {
   overflow: hidden;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003148}}
 .post__notes img {
   float: left;
   margin-right: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003152}}
 .post__notes .avatar_frame {
   display: none;
 }
 
 @media screen and (max-width: 700px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003157}}
   .post {
     margin: 5.55556em 2.77778em;
   }
 }
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003162}}
   .post {
     margin: 2.77778em;
   }
 }
 @media screen and (max-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003168}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\00003167}}
   .post {
     margin: 1.38889em;
   }
@@ -1668,4 +1667,19 @@ th {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_gist\.scss}line{font-family:\000037}}
 .gist {
   font-size: 0.77778em;
+}
+
+/**
+* Responsive images
+*
+* @section Block
+* @author  laustdeleuran
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_responsive-img\.scss}line{font-family:\000038}}
+.responsive-img__loading {
+  padding: 0.69444em;
+  position: absolute;
+  color: black;
+  white-space: nowrap;
+  background-color: rgba(255, 255, 255, 0.5);
 }

@@ -91,19 +91,43 @@ require([
 			}
 		});
 
-		// Lazy images
+		// Responsive / lazy images
 		$('.responsive-img').each(function () {
 			var $img = $(this),
 			low = $img.data('src'),
 			medium = $img.data('medres'),
 			high = $img.data('highres'),
-			loaded,
+			$win = $(window),
+			$loading = $('<div class="responsive-img__loading">Loading&hellip;</div>'),
 			doLoad;
+
+			doLoad = function () {
+				var res, width;
+
+				$img.addClass('responsive-img--loading');
+				$loading.insertBefore($img);
+
+				width = $win.width();
+				if (width > 500) {
+					res = high;
+				} else {
+					res = medium;
+				}
+
+				$('<img />').attr('src', res).load(function () {
+					$img
+						.attr('src', res)
+						.removeClass('responsive-img--loading');
+
+					$(this).remove();
+					$loading.detach();
+				});
+			};
 
 			$img.waypoint({
 				handler: function (dir) {
 					if (dir === 'down') {
-						console.log('entering viewport while scrolling down');
+						doLoad();
 					}
 				},
 				offset: '100%'
@@ -111,7 +135,7 @@ require([
 			$img.waypoint({
 				handler: function (dir) {
 					if (dir === 'up') {
-						console.log('entering viewport while scrolling up');
+						doLoad();
 					}
 				},
 				offset: function () {

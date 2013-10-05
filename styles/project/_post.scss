@@ -24,7 +24,6 @@
 		display: block;
 		@include trailer(1);
 		max-width: em($unit * 5);
-		width: auto;
 		height: auto;
 	}
 	iframe {
