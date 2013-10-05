@@ -542,7 +542,7 @@ a:hover, a:active, a:focus {
   width: 5.55556em;
   height: 5.55556em;
   padding: 0 0.5em;
-  color: #cccccc;
+  color: #bbbbbb;
   vertical-align: middle;
   text-decoration: none;
   text-align: center;
@@ -1473,7 +1473,7 @@ th {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_blog\.scss}line{font-family:\0000310}}
 .blog__intro {
   padding-bottom: 5.55556em;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #bbbbbb;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_blog\.scss}line{font-family:\0000314}}
 .blog__intro h1 a {
@@ -1490,7 +1490,7 @@ th {
 .post {
   margin: 5.55556em;
   padding-bottom: 5.55556em;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #bbbbbb;
   position: relative;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000319}}
@@ -1548,7 +1548,7 @@ th {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000372}}
 .post__meta a {
   margin-right: 0.5em;
-  color: #cccccc;
+  color: #bbbbbb;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_post\.scss}line{font-family:\0000377}}
 .post__meta .post__permalink {
