@@ -4,7 +4,9 @@
 * @section Block
 * @author  laustdeleuran
 */
-.blog {}
+.blog {
+	@extend %min-width;
+}
 .blog__intro {
 	padding-bottom: em($unit);
 	border-bottom: 1px solid $color-grey-light;

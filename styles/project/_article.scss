@@ -5,6 +5,8 @@
 * @author  laustdeleuran
 */
 .article {
+	@extend %min-width;
+	
 	margin: em($unit);
 
 	p {

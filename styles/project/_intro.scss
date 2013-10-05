@@ -5,9 +5,12 @@
 * @author  laustdeleuran
 */
 .intro {
+	@extend %min-width;
+	@include box-sizing(border-box);
 	width: auto;
 	height: auto;
 	padding: 0 em($unit);
+	min-height: em(25 * $base-line-height);
 
 	position: absolute;
 	top: 0;
@@ -209,6 +212,9 @@
 }
 // Media queries
 @media screen and (max-width:1000px) {
+	.intro {
+		min-height: em(20 * $base-line-height);
+	}
 	.intro__header,
 	.intro__content {
 		@include adjust-font-size-to(36px);
@@ -218,6 +224,7 @@
 @media screen and (max-width:900px) {
 	.intro {
 		padding: 0 em($unit / 2);
+		min-height: em(15 * $base-line-height);
 	}
 	.intro__header,
 	.intro__content {
@@ -228,6 +235,9 @@
 @media screen and (max-width:700px) {
 	.intro__header {
 		float: none;
+	}
+	.intro__content {
+		padding-top: em($base-line-height, 27px);
 	}
 	.intro__content {
 		padding-left: 0;
@@ -244,9 +254,24 @@
 }
 @media screen and (max-width:600px) {
 	.intro {
-		padding: em($base-line-height);
+		padding: em($unit / 2);
+		min-height: em(15 * $base-line-height);
 		
 		top: em($unit);
 		left: 0;
+	}
+	.intro__header{
+		padding-top: em($base-line-height, 27px);
+	}
+}
+@media screen and (max-width:400px) {
+	.intro {
+		padding: em($base-line-height);
+	}
+}
+@media screen and (max-width:320px) {
+	.intro__header,
+	.intro__content {
+		@include adjust-font-size-to(24px, 1.5);
 	}
 }

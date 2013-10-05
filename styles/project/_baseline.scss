@@ -12,6 +12,10 @@ html {
 	text-rendering: optimizeLegibility;
 	color: $color-black;
 }
+html,
+body {
+	@extend %min-width;
+}
 a {
 	//@include box-sizing(border-box);
 	//display:inline-block;
