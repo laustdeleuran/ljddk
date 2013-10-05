@@ -1658,6 +1658,18 @@ th {
   margin: 5.55556em;
 }
 
+@media screen and (max-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_pagination\.scss}line{font-family:\0000311}}
+  .pagination {
+    padding: 2.77778em;
+  }
+}
+@media screen and (max-width: 400px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ljd\/Sites\/laustdeleuran\.github\.io\/styles\/project\/_pagination\.scss}line{font-family:\0000316}}
+  .pagination {
+    padding: 1.38889em;
+  }
+}
 /**
 * Embedded gists
 *

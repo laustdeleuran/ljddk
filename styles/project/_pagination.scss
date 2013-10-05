@@ -7,3 +7,13 @@
 .pagination {
 	margin: em($unit);
 }
+@media screen and (max-width:600px) {
+	.pagination {
+		padding: em($unit / 2);
+	}
+}
+@media screen and (max-width:400px) {
+	.pagination {
+		padding: em($base-line-height);
+	}
+}
