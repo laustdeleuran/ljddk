@@ -1,9 +1,5 @@
 /*
- * Vertic JS - Site functional wrapper
- * http://labs.vertic.com
- *
- * Copyright 2012, Vertic A/S
- *
+ * Site functional wrapper
  */
 
 /*jslint plusplus: true, vars: true, browser: true, white:true*/
@@ -15,11 +11,17 @@ require.config({
 	}
 });
 
-require(['framework/core', 'jquery'], function(core, $) {
+require([
+	'framework/core',
+	'jquery'
+], function(
+	core,
+	$
+) {
 	'use strict';
 
-	// Expose core as vertic first for debugging reasons
-	window.vertic = core;
+	// Expose core
+	window.ljd = core;
 
 	// Document ready
 	$(function () {
@@ -61,7 +63,6 @@ require(['framework/core', 'jquery'], function(core, $) {
 			var href = $(this).attr('href');
 			return href.indexOf(window.location.hostname) > -1 || href.indexOf('://') < 0;
 		}).attr('target', '_blank');
-
 
 		// Avoid widows
 		(function ($) {
