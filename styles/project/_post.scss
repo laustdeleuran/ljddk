@@ -24,7 +24,6 @@
 		display: block;
 		@include trailer(1);
 		max-width: em($unit * 5);
-		width: auto;
 		height: auto;
 	}
 	iframe {
@@ -107,6 +106,10 @@
 			content:"";
 		}
 	}
+	img {
+		max-width: 100%;
+		height: auto;	
+	}
 }
 .post__quote {
 	p {
@@ -158,10 +161,12 @@
 @media screen and (max-width:600px) {
 	.post {
 		margin: em($unit / 2);
+		padding-bottom: em($unit / 2);
 	}
 }
 @media screen and (max-width:400px) {
 	.post {
 		margin: em($base-line-height);
+		padding-bottom: em($base-line-height);
 	}
 }

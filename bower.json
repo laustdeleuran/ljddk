@@ -1,9 +1,10 @@
 {
-	"name": "Vertic Boilerplate",
+	"name": "ljd.dk - Laust Johan Deleuran",
 	"version": "0.0.2",
 	"dependencies": {
 		"requirejs": "latest",
 		"jquery": "~1.9",
-		"modernizr": "latest"
+		"modernizr": "latest",
+		"imagesloaded": "~3.0.4"
 	}
 }

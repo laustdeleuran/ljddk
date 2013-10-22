@@ -24,6 +24,9 @@
 	content:".";
 	display:block;
 }
+%min-width {
+	min-width: 280px;
+}
 @mixin poly-before {
 	&:before {
 		content:"\2009";

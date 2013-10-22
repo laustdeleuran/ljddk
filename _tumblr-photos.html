@@ -15,7 +15,6 @@
 	<link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Playfair+Display:400,700,900,400italic,700italic" rel="stylesheet" type="text/css" />
 	<link rel="alternate" type="application/rss+xml" href="{RSS}">
 
-	<meta name="viewport"  content="width=660" />
 	<link rel="apple-touch-icon" href="{PortraitURL-128}"></link>
 
 	<meta name="text:Google Analytics ID" content="" />
@@ -75,10 +74,10 @@
 
 				{block:Photo}
 
-					<figure class="post__photo">
+					<figure class="post__photo post__photo--feature">
 
 						{LinkOpenTag}
-							<img src="{PhotoURL-500}" alt="{PhotoAlt}"/>
+							<img src="{PhotoURL-250}" width="{PhotoWidth-HighRes}" height="{PhotoHeight-HighRes}" data-medres="{PhotoURL-500}" data-highres="{PhotoURL-HighRes}" alt="{PhotoAlt}" class="responsive-img" />
 						{LinkCloseTag}
 
 						{block:Caption}
@@ -186,7 +185,7 @@
 
 				{/block:Audio}
 
-				<div class="post__meta">
+    			<div class="post__meta">
 					{block:Date}
 						<a href="{Permalink}" class="post__date">{TimeAgo}</a>
 					{/block:Date}
@@ -222,7 +221,7 @@
 
 			</nav>
 
-		{/block:Pagination}
+		 {/block:Pagination}
 		
 		{block:PermalinkPagination}
 			
@@ -231,7 +230,7 @@
 				{block:PreviousPost}
 					<a href="{PreviousPost}" id="nav-prev" style="text-transform:lowercase;">&larr; {lang:Older}</a>
 				{/block:PreviousPost}
-				<span class="page_number"> &nbsp; {CurrentPage}/{TotalPages} &nbsp;</span>
+                &nbsp;
 				{block:NextPost}
 					<a href="{NextPost}" id="nav-next" style="text-transform:lowercase;">{lang:Newer} &rarr;</a>
 				{/block:NextPost}

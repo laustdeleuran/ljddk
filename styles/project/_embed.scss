@@ -5,6 +5,8 @@
 * @author  laustdeleuran
 */
 .embed {
+	@extend %min-width;
+
 	width: auto;
 	height: auto;
 
@@ -18,10 +20,54 @@
 	object,
 	embed,
 	video {
+		@extend %min-width;
+		
 		display: block;
+		width: 100%;
+		height: 100%;
+	}
+}
+.embed__title {
+	margin: 0 auto;
+	max-width: 15em;
+
+	position: absolute;
+	right: em($unit, 45px);
+	bottom: em($unit, 45px);
+	left: em($unit, 45px);
+	
+	@include adjust-font-size-to(45px);
+	color: $color-white;
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
+	text-align: center;
+}
+// Media queries
+@media screen and (max-width:1000px) {
+	.embed__title {
+		right: em($unit, 36px);
+		bottom: em($unit, 36px);
+		left: em($unit, 36px);
+		
+		@include adjust-font-size-to(36px);
+	}
+}
+@media screen and (max-width:900px) {
+	.embed__title {
+		right: em($unit, 27px);
+		bottom: em($unit, 27px);
+		left: em($unit, 27px);
+		
+		@include adjust-font-size-to(27px, 1.5);
 	}
 }
 @media screen and (max-width:600px) {
+	.embed__title {
+		right: em($base-line-height, 27px);
+		bottom: em($base-line-height, 27px);
+		left: em($base-line-height, 27px);
+		
+		@include adjust-font-size-to(27px, 1.5);
+	}
 	.embed {
 		top: em($unit);
 		left: 0;

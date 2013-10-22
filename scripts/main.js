@@ -1,9 +1,5 @@
 /*
- * Vertic JS - Site functional wrapper
- * http://labs.vertic.com
- *
- * Copyright 2012, Vertic A/S
- *
+ * Site functional wrapper
  */
 
 /*jslint plusplus: true, vars: true, browser: true, white:true*/
@@ -12,14 +8,30 @@
 require.config({
 	paths: {
 		'jquery': 'components/jquery/jquery',
+		'imagesloaded': 'components/imagesloaded/imagesloaded',
+		'eventEmitter/EventEmitter': 'components/eventEmitter/EventEmitter',
+		'eventie/eventie': 'components/eventie/eventie',
+		'waypoints': 'plugins/jquery-waypoints-2.0.3-dev'
+	},
+	shim: {
+		waypoints: ['jquery']
 	}
 });
 
-require(['framework/core', 'jquery'], function(core, $) {
+require([
+	'framework/core',
+	'jquery',
+	'imagesloaded',
+	'waypoints'
+], function(
+	core,
+	$,
+	ImagesLoaded
+) {
 	'use strict';
 
-	// Expose core as vertic first for debugging reasons
-	window.vertic = core;
+	// Expose core
+	window.ljd = core;
 
 	// Document ready
 	$(function () {
@@ -66,7 +78,6 @@ require(['framework/core', 'jquery'], function(core, $) {
 			return href.indexOf(window.location.hostname) > -1 || href.indexOf('://') < 0;
 		}).attr('target', '_blank');
 
-
 		// Avoid widows
 		(function ($) {
 			$.fn.avoidWidows = function () {
@@ -87,6 +98,67 @@ require(['framework/core', 'jquery'], function(core, $) {
 			} else {
 				$header.avoidWidows();
 			}
+		});
+
+		// Responsive / lazy images
+		$('.responsive-img').each(function () {
+			var $img = $(this),
+			low = $img.data('src'),
+			medium = $img.data('medres'),
+			high = $img.data('highres'),
+			lastRes = low,
+			$win = $(window),
+			$loading = $('<div class="responsive-img__loading">Loading&hellip;</div>'),
+			doLoad;
+
+			doLoad = function () {
+				var res, width;
+
+				width = $win.width();
+				if (width > 500) {
+					res = high;
+				} else {
+					res = medium;
+				}
+
+				if (res === lastRes) {
+					return false;
+				}
+				lastRes = res;
+
+				$img.addClass('responsive-img--loading');
+				$loading.insertBefore($img);
+
+				$('<img />').load(function () {
+					$img
+						.attr('src', res)
+						.removeClass('responsive-img--loading');
+
+					$(this).remove();
+					$loading.detach();
+				}).attr('src', res);
+			};
+
+			new ImagesLoaded(this, function () {
+				$img.waypoint({
+					handler: function (dir) {
+						if (dir === 'down') {
+							doLoad();
+						}
+					},
+					offset: '100%'
+				});
+				$img.waypoint({
+					handler: function (dir) {
+						if (dir === 'up') {
+							doLoad();
+						}
+					},
+					offset: function () {
+						return -$(this).height();
+					}
+				});
+			});
 		});
 	});
 });
