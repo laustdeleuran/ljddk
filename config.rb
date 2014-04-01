@@ -17,7 +17,7 @@
 
 sass_options = {:debug_info=>true} # by Compass.app 
 line_comments = false # by Compass.app 
-
+output_style = :compressed
 http_path = "/"
 css_dir = "styles"
 sass_dir = "styles"
