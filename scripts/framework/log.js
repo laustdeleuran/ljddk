@@ -1,10 +1,7 @@
 /**
-* Console log - Vertic framework
-*
 * Console log wrapper - based on http://www.paulirish.com/2009/log-a-lightweight-wrapper-for-consolelog/
 *
 * @section Framework
-* @author ldeleuran
 */
 /*jslint plusplus: true, vars: true, browser: true, white:true*/
 /*global require: true, Modernizr: true*/

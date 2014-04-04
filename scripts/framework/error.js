@@ -1,11 +1,7 @@
 /**
-* Error log - Vertic framework
-*
 * Error log - dependant on normal log module
 *
 * @section Framework
-* @author ldeleuran
-* @modifiedby echristensen
 */
 
 /*jslint plusplus: true, vars: true, browser: true, white:true*/
