@@ -1,11 +1,7 @@
 /**
-* Vertic core - Vertic framework
-*
 * Core container
 *
 * @section Framework
-* @author ldeleuran
-* @modifiedby echristensen
 */
 
 /*jslint plusplus: true, vars: true, browser: true, white:true*/
