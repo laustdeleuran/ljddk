@@ -44,7 +44,8 @@ define(['framework/core', 'jquery', 'clndr'], function (core, $) {
 	Calendar.prototype.render = function (callback) {
 		var instance = this;
 
-		instance.$content.clndr({
+		instance.clndr = instance.$content.clndr({
+			weekOffset: 1,
 			template: instance.$template.html(),
 			events: instance.parseEvents(),
 			doneRendering: callback
@@ -64,7 +65,12 @@ define(['framework/core', 'jquery', 'clndr'], function (core, $) {
 
 		$.each(instance.data.feed.entry, function (index, item) {
 			instance.events.push({
-				date: item.gd$when[0].startTime
+				date: item.gd$when[0].startTime,
+				startTime: item.gd$when[0].startTime,
+				endTime: item.gd$when[0].endTime,
+				title: item.title.$t,
+				link: item.link[0].href,
+				id: item.id.$t
 			});
 		});
 

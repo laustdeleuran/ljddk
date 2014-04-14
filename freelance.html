@@ -9,15 +9,17 @@ metaDescription: Interested in high-quality front-end development or UX design? 
 <article class="article about">
 	<h1>Interested in stunning front-end development or user experience design?</h1>
 	<p>I've created stuff for the web for over 15 years, and I've been working professionally in the industry for 5+ years. People tell me I do front-end development and UX design, but what I really love is creating engaging interactions. The devil is in the detail.</p>
-	<section class="calendar" data-jsonp="http://www.google.com/calendar/feeds/5jiks6jphm3brne2q5k918plo4%40group.calendar.google.com/public/full?alt=json-in-script&orderby=starttime&max-results=15&singleevents=true&sortorder=ascending&futureevents=true">
+	<section class="calendar" data-jsonp="http://www.google.com/calendar/feeds/5jiks6jphm3brne2q5k918plo4%40group.calendar.google.com/public/full?alt=json-in-script&orderby=starttime&max-results=15&singleevents=true&sortorder=ascending" data-text-busy="I'm unfortunately busy this day." data-text-free="Looks like I'm available that day! Whoop, whoop!">
 
 		<h2 class="calendar__title">Availability</h2>
+
+		<p>Want to know if I'm available to help out on a project? Check out my work calendar below.</p>
 		
 		<script type="text/template" class="calendar__template">
 			<div class="calendar__controls clndr-controls">
-				<div class="calendar__prev clndr-previous-button">&lsaquo;</div>
+				<div class="calendar__prev clndr-previous-button" tabindex="0">&larr;</div>
+				<div class="calendar__next clndr-next-button" tabindex="0">&rarr;</div>
 				<div class="calendar__month month"><%= month %></div>
-				<div class="calendar__next clndr-next-button">&rsaquo;</div>
 			</div>
 			<div class="calendar__grid clndr-grid">
 				<div class="calendar__days-of-the-week days-of-the-week">
@@ -26,12 +28,20 @@ metaDescription: Interested in high-quality front-end development or UX design? 
 					<% }); %>
 					<div class="calendar__days days">
 						<% _.each(days, function(day) { %>
-							<div class="<%= day.classes %>"><%= day.day %></div>
+							<div class="<%= day.classes %>" <%
+								if (day.events.length) {
+									%> title="I'm unfortunately busy this day."<%
+								} else if (day.day == '5' || day.day == '6') {
+
+								} else {
+									%> title="Looks like I'm available that day! Whoop, whoop!"<%
+								}
+							%>><%= day.day %></div>
 						<% }); %>
 					</div>
 				</div>
 			</div>
-			<div class="calendar__today clndr-today-button">Today</div>
+			<div class="calendar__today clndr-today-button" tabindex="0">Today</div>
 		</script>
 
 		<div class="calendar__content"></div>

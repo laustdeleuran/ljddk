@@ -7,6 +7,9 @@
 .nav {
 	width: em($unit);
 	padding: em($unit) 0;
+	overflow: hidden;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
 
 	position: fixed;
 	top: 0;
@@ -53,6 +56,11 @@
 		border: none;
 	}
 }
+@media screen and (max-height:700px) {
+	.nav {
+		padding: 0;
+	}
+}
 @media screen and (max-width:600px) {
 	.nav {
 		@include box-sizing(border-box);
@@ -60,9 +68,8 @@
 		width: auto;
 		height: em($unit);
 		padding: 0 em($unit / 2);
-		overflow: hidden;
+		overflow-y: hidden;
 		overflow-x: auto;
-		-webkit-overflow-scrolling: touch;
 
 		position: static;
 
