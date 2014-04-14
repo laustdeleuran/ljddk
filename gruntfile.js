@@ -170,6 +170,7 @@ module.exports = function(grunt) {
 				pushTo: 'origin'
 			}
 		}
+		// ADD https://github.com/dannygarcia/grunt-jekyll
 	});
 
 	// Build for distribution to 3rd party vendor
