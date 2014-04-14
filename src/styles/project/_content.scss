@@ -1,0 +1,16 @@
+/**
+* Content container
+*
+* @section Block
+* @author  laustdeleuran
+*/
+.content {
+	@extend %min-width;
+	
+	padding-left: em($unit);
+}
+@media screen and (max-width:600px) {
+	.content {
+		padding-left: 0;
+	}
+}

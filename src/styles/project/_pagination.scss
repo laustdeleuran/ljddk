@@ -1,0 +1,19 @@
+/**
+* Post
+*
+* @section Block
+* @author  laustdeleuran
+*/
+.pagination {
+	margin: em($unit);
+}
+@media screen and (max-width:600px) {
+	.pagination {
+		margin: em($unit / 2);
+	}
+}
+@media screen and (max-width:400px) {
+	.pagination {
+		margin: em($base-line-height);
+	}
+}

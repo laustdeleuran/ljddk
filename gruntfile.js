@@ -118,9 +118,9 @@ module.exports = function(grunt) {
 			html: {
 				files: [{
 					expand: true,
-					cwd: '/',
-					src: ['src/{,*/}*.html', 'src/{,*/}*.markdown', 'src/{,*/}*.md'],
-					dest: '/',
+					cwd: 'src/',
+					src: ['{,*/}*.html', '{,*/}*.markdown', '{,*/}*.md'],
+					dest: '',
 					filter: 'isFile'
 				}]
 			}
@@ -186,7 +186,7 @@ module.exports = function(grunt) {
 	// Run simple server for development
 	grunt.registerTask('develop', [
 		'compass:dev',
-		'compass:html',
+		'copy:html',
 		'watch'
 	]);
 };
