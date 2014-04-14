@@ -20,10 +20,10 @@ module.exports = function(grunt) {
 		modernizr: {
 			dist: {
 				// [REQUIRED] Path to the build you're using for development.
-				devFile : 'components/modernizr/modernizr.js',
+				devFile : 'src/components/modernizr/modernizr.js',
 
 				// [REQUIRED] Path to save out the built file.
-				'outputFile' : 'build/modernizr.min.js',
+				'outputFile' : 'scripts/modernizr.min.js',
 
 				// Based on default settings on http://modernizr.com/download/
 				'extra' : {
@@ -60,13 +60,13 @@ module.exports = function(grunt) {
 				// You can override this by defining a 'files' array below.
 				'files' : {
 					'src': [
-						'scripts/{,*/}*.js',
-						'styles/{,*/}*.css'
+						'src/scripts/{,*/}*.js',
+						'src/styles/{,*/}*.css'
 					]
 				},
 				'excludeFiles': [
-					'build/*.js',
-					'components/modernizr/modernizr.js'
+					'scripts/*.js',
+					'src/components/modernizr/modernizr.js'
 				],
 
 				// When parseFiles = true, matchCommunityTests = true will attempt to
@@ -78,7 +78,7 @@ module.exports = function(grunt) {
 			}
 		},
 		clean: {
-			dist: ['/**', 'build/**']
+			build: ['scripts', 'styles', '_layouts', '_posts', 'images']
 		},
 		requirejs: {
 			compile: {
@@ -87,9 +87,9 @@ module.exports = function(grunt) {
 					wrap: true,
 					preserveLicenseComments: false,
 					insertRequire: ['main'],
-					baseUrl: 'scripts/',
-					mainConfigFile: 'scripts/config.js',
-					out: 'build/scripts.min.js'
+					baseUrl: 'src/scripts/',
+					mainConfigFile: 'src/scripts/config.js',
+					out: 'scripts/scripts.min.js'
 				}
 			}
 		},
@@ -97,17 +97,17 @@ module.exports = function(grunt) {
 			options: {
 				basePath: '',
 				imagesDir: 'images',
-				cssDir: 'styles',
-				sassDir: 'styles',
+				cssDir: 'src/styles',
+				sassDir: 'src/styles',
 				noLineComments: false,
 				outputStyle: 'expanded',
 				environment: 'development'
 			},
 			dev: {
 			},
-			dist: {
+			build: {
 				options: {
-					cssDir: 'build',
+					cssDir: 'styles',
 					noLineComments: true,
 					outputStyle: 'compressed',
 					environment: 'production'
@@ -115,66 +115,54 @@ module.exports = function(grunt) {
 			}
 		},
 		copy: {
-			dist: {
+			html: {
 				files: [{
 					expand: true,
-					cwd: '<%= config.dev %>/',
-					src: ['images/**', 'fonts/**', 'templates/**', 'scripts/<%= pkg.name %>.<%= pkg.version %>.*.min.js', '*.ico'],
-					dest: '<%= config.dist %>/',
+					cwd: '/',
+					src: ['src/{,*/}*.html', 'src/{,*/}*.markdown', 'src/{,*/}*.md'],
+					dest: '/',
 					filter: 'isFile'
-				}, ]
-			},
-			'show-built':  {
-				files: [{
-					expand: true,
-					cwd: '<%= config.dev %>/',
-					src: ['index.html'],
-					dest: '<%= config.dist %>/',
-					filter: 'isFile'
-				}, ]
+				}]
 			}
 		},
 		imagemin: {
 			dynamic: {
 				expand: true, // Enable dynamic expansion
-				cwd: '<%= config.dist %>/images/', // Src matches are relative to this path
+				cwd: 'src/images/', // Src matches are relative to this path
 				src: ['**/*.{png,jpg,gif}'], // Actual patterns to match
-				dest: '<%= config.dist %>/images/' // Destination path prefix
+				dest: 'images/' // Destination path prefix
 			}
 		},
 		replace: {
-			scripts: {
-				src: ['<%= config.dist %>/templates/{,*/}*.html', '<%= config.dist %>/templates/{,*/}*.hbs'],
+			compiled: {
+				src: ['*.html', '*.markdown', '*.md', '_posts/*.md', '_posts/*.markdown', '_posts/*.html', '_layouts/*.html'],
 				overwrite: true,
 				replacements: [{
-					from: '<script src="/components/modernizr/modernizr.js"></script>',
-					to: '<script src="/scripts/<%= pkg.name %>.<%= pkg.version %>.modernizr.min.js"></script>'
+					from: '<script src="/src/components/modernizr/modernizr.js"></script>',
+					to: '<script src="/build/modernizr.min.js"></script>'
 				}, {
-					from: '<script data-main="/scripts/config" src="/components/requirejs/require.js"></script>',
+					from: '<script data-main="/src/scripts/config" src="/src/components/requirejs/require.js"></script>',
 					to: ''
 				}, {
 					from: '<!-- <script src="scripts.min.js"></script> -->',
-					to: '<script src="/scripts/<%= pkg.name %>.<%= pkg.version %>.scripts.min.js"></script>'
+					to: '<script src="/scripts/scripts.min.js"></script>'
+				}, {
+					from: '<link rel="stylesheet" href="/src/styles/style.css" media="all" />',
+					to: '<link rel="stylesheet" href="/styles/style.css" media="all" />'
+				}, {
+					from: '<link rel="stylesheet" href="/src/styles/print.css" media="print" />',
+					to: '<link rel="stylesheet" href="/styles/print.css" media="all" />'
 				}]
 			}
 		},
 		watch: {
 			sass: {
-				files: ['<%= config.dev %>/styles/{,*/}{,*/}*.scss'],
-				tasks: ['compass:dev'],
+				files: ['src/styles/{,*/}{,*/}*.scss'],
+				tasks: ['compass:dev']
 			},
-			livereload: {
-				files: [
-					'<%= config.dev %>/styles/{,*/}*.css',
-					'<%= config.dev %>/scripts/{,*/}*.js',
-					'<%= config.dev %>/templates/{,*/}*.html',
-					'<%= config.dev %>/templates/{,*/}*.hbs',
-					'<%= config.dev %>/*.html',
-					'<%= config.dev %>/images/{,*/}*.{png,jpg,jpeg,gif,webp}'
-				],
-				options: {
-					livereload: true,
-				}
+			content: {
+				files: ['src/{,*/}*.html', 'src/{,*/}*.markdown', 'src/{,*/}*.md'],
+				tasks: ['copy:html']
 			},
 		},
 		bump: { // https://github.com/vojtajina/grunt-bump
@@ -186,25 +174,19 @@ module.exports = function(grunt) {
 
 	// Build for distribution to 3rd party vendor
 	grunt.registerTask('build', [
-		'clean:dist',
+		'clean:build',
 		'requirejs',
 		'modernizr',
-		'compass:dist',
-		'copy:dist',
+		'compass:build',
+		'copy:html',
 		'imagemin',
-		'replace:scripts'
-	]);
-
-	// Show build results
-	grunt.registerTask('show-built', [
-		'copy:show-built',
-		'connect:dist'
+		'replace:compiled'
 	]);
 
 	// Run simple server for development
-	grunt.registerTask('server', [
+	grunt.registerTask('develop', [
 		'compass:dev',
-		'connect:server',
+		'compass:html',
 		'watch'
 	]);
 };
