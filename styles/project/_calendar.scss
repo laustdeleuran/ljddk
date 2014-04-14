@@ -1,0 +1,94 @@
+/**
+* Blog container
+*
+* @section Block
+* @author  laustdeleuran
+*/
+.calendar {
+	display: none;
+}
+.calendar--init {
+	display: block;
+}
+// CLNDR default styles
+.clndr-controls {
+  display: block;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 3px;
+}
+.clndr-controls .clndr-previous-button {
+  float: left;
+  width: 10%;
+  text-align: left;
+  cursor: pointer;
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
+}
+.clndr-controls .clndr-previous-button:hover {
+  background-color: #f4f4f4;
+}
+.clndr-controls .month {
+  float: left;
+  width: 80%;
+  text-align: center;
+}
+.clndr-controls .clndr-next-button {
+  float: left;
+  width: 10%;
+  text-align: right;
+  cursor: pointer;
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
+}
+.clndr-controls .clndr-next-button:hover {
+  background-color: #f4f4f4;
+}
+.clndr-grid {
+  text-align: center;
+  border: 1px solid #FF4545;
+  display: inline-block;
+}
+.clndr-grid .header-day {
+  float: left;
+  width: 25px;
+  height: 25px;
+  background: #FF4545;
+}
+.clndr-grid .day {
+  float: left;
+  width: 25px;
+  height: 25px;
+}
+.clndr-grid .calendar-dow-0 {
+	clear: left;
+}
+.clndr-grid .day.event {
+  background-color: #B4E09F;
+}
+.clndr-grid .day.today {
+  background-color: #E3C57F;
+}
+.clndr-grid .empty,
+.clndr-grid .adjacent-month {
+  float: left;
+  width: 25px;
+  height: 25px;
+  background: #ddd;
+}
+.clndr-today-button {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+.clndr-today-button:hover {
+  background-color: #ddd;
+}

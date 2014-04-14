@@ -9,8 +9,33 @@ metaDescription: Interested in high-quality front-end development or UX design? 
 <article class="article about">
 	<h1>Interested in stunning front-end development or user experience design?</h1>
 	<p>I've created stuff for the web for over 15 years, and I've been working professionally in the industry for 5+ years. People tell me I do front-end development and UX design, but what I really love is creating engaging interactions. The devil is in the detail.</p>
-	<h2>Availability</h2>
-	<div class="calendar" data-jsonp="http://www.google.com/calendar/feeds/5jiks6jphm3brne2q5k918plo4%40group.calendar.google.com/public/basic?alt=json-in-script&orderby=starttime&max-results=15&singleevents=true&sortorder=ascending&futureevents=true"></div>
+	<section class="calendar" data-jsonp="http://www.google.com/calendar/feeds/5jiks6jphm3brne2q5k918plo4%40group.calendar.google.com/public/full?alt=json-in-script&orderby=starttime&max-results=15&singleevents=true&sortorder=ascending&futureevents=true">
+
+		<h2 class="calendar__title">Availability</h2>
+		
+		<script type="text/template" class="calendar__template">
+			<div class="calendar__controls clndr-controls">
+				<div class="calendar__prev clndr-previous-button">&lsaquo;</div>
+				<div class="calendar__month month"><%= month %></div>
+				<div class="calendar__next clndr-next-button">&rsaquo;</div>
+			</div>
+			<div class="calendar__grid clndr-grid">
+				<div class="calendar__days-of-the-week days-of-the-week">
+					<% _.each(daysOfTheWeek, function(day) { %>
+						<div class="calendar__header-day header-day"><%= day %></div>
+					<% }); %>
+					<div class="calendar__days days">
+						<% _.each(days, function(day) { %>
+							<div class="<%= day.classes %>"><%= day.day %></div>
+						<% }); %>
+					</div>
+				</div>
+			</div>
+			<div class="calendar__today clndr-today-button">Today</div>
+		</script>
+
+		<div class="calendar__content"></div>
+	</section>
 	<h2>Get in touch</h2>
 	<p>I'm  available for freelance work, should you be interested. If so, you should reach out!</p>
 	<table class="vcard">

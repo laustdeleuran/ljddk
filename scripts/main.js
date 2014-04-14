@@ -10,11 +10,15 @@ require.config({
 		'jquery': 'components/jquery/jquery',
 		'imagesloaded': 'components/imagesloaded/imagesloaded',
 		'eventEmitter/EventEmitter': 'components/eventEmitter/EventEmitter',
+		'clndr': 'components/clndr/src/clndr',
+		'moment': 'components/moment/moment',
+		'underscore': 'components/underscore/underscore',
 		'eventie/eventie': 'components/eventie/eventie',
 		'waypoints': 'plugins/jquery-waypoints-2.0.3-dev'
 	},
 	shim: {
-		waypoints: ['jquery']
+		waypoints: ['jquery'],
+		clndr: ['jquery', 'moment', 'underscore']
 	}
 });
 
