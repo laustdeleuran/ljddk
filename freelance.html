@@ -15,9 +15,9 @@ metaDescription: Interested in high-quality front-end development or UX design? 
 		
 		<script type="text/template" class="calendar__template">
 			<div class="calendar__controls clndr-controls">
-				<div class="calendar__prev clndr-previous-button">&lsaquo;</div>
+				<div class="calendar__prev clndr-previous-button" tabindex="0">&lsaquo;</div>
+				<div class="calendar__next clndr-next-button" tabindex="0">&rsaquo;</div>
 				<div class="calendar__month month"><%= month %></div>
-				<div class="calendar__next clndr-next-button">&rsaquo;</div>
 			</div>
 			<div class="calendar__grid clndr-grid">
 				<div class="calendar__days-of-the-week days-of-the-week">
@@ -31,7 +31,7 @@ metaDescription: Interested in high-quality front-end development or UX design? 
 					</div>
 				</div>
 			</div>
-			<div class="calendar__today clndr-today-button">Today</div>
+			<div class="calendar__today clndr-today-button" tabindex="0">Today</div>
 		</script>
 
 		<div class="calendar__content"></div>
