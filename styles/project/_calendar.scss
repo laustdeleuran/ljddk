@@ -4,26 +4,54 @@
 * @section Block
 * @author  laustdeleuran
 */
+.calendar,
+.calendar__days-of-the-week {
+	@include transition(0.5s ease-out);
+}
 .calendar {
-	display: none;
-	max-width: em(4 * $unit);
+	max-width: em(5 * $unit);
+
+	opacity: 0.5;
 }
 .calendar--init {
-	display: block;
+	&,
+	.calendar__days-of-the-week {
+		opacity: 1;
+	}
+	.calendar__content {
+		min-height: none;
+
+		background-color: transparent;
+	}
+}
+.calendar__loading,
+.calendar__error {
+	margin: em($base-line-height);
+}
+.calendar__content,
+.calendar__controls,
+.calendar__month,
+.calendar__days {
+	overflow: hidden;
 }
 .calendar__content {
+	min-height: em($base-line-height * 8);
+
 	text-align: center;
+
+	background-color: $color-grey-light;
+}
+.calendar__controls,
+.calendar__days {
+	clear: both;
 }
 .calendar__controls {
 	display: block;
-	overflow: hidden;
 	width: 100%;
 
 	color: $color-grey-medium;
 }
 .calendar__month {
-	overflow: hidden;
-
 	text-align: center;
 	color: $color-black;
 	font-weight: bold;
@@ -55,6 +83,8 @@
 }
 .calendar__days-of-the-week {
 	overflow: hidden;
+
+	opacity: 0;
 }
 .calendar__header-day,
 .calendar__days .day {
@@ -62,9 +92,6 @@
 	width: percentage(1/7);
 }
 .calendar__days .day {
-	&.today {
-		background: $color-action;
-	}
 	&.event {
 		color: $color-grey-dark;
 
@@ -90,6 +117,12 @@
 	&[title] {
 		cursor: help;
 	}
+	&.today,
+	&.today.event {
+		color: $color-black;
+
+		background: $color-action;
+	}
 }
 .calendar__header-day {
 	font-weight: bold;
@@ -108,6 +141,7 @@
 	@include transition(0.2s ease);
 
 	cursor: pointer;
+	outline: none;
 
 	&:hover,
 	&:active,
@@ -115,79 +149,3 @@
 		border-bottom-color: $color-action-dark;
 	}
 }
-// CLNDR default styles
-/*.clndr-controls {
-	display: block;
-	display: inline-block;
-	width: 100%;
-	margin-bottom: 3px;
-}
-.clndr-controls .clndr-previous-button {
-	float: left;
-	width: 10%;
-	text-align: left;
-	cursor: pointer;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-}
-.clndr-controls .clndr-previous-button:hover {
-	background-color: #f4f4f4;
-}
-.clndr-controls .month {
-	float: left;
-	width: 80%;
-	text-align: center;
-}
-.clndr-controls .clndr-next-button {
-	float: left;
-	width: 10%;
-	text-align: right;
-	cursor: pointer;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-}
-.clndr-controls .clndr-next-button:hover {
-	background-color: #f4f4f4;
-}
-.clndr-grid {
-	text-align: center;
-	border: 1px solid #FF4545;
-	display: inline-block;
-}
-.clndr-grid .header-day {
-	float: left;
-	width: 25px;
-	height: 25px;
-	background: #FF4545;
-}
-.clndr-grid .day {
-	float: left;
-	width: 25px;
-	height: 25px;
-}
-.clndr-grid .calendar-dow-1 {
-	clear: left;
-}
-.clndr-grid .day.event {
-	background-color: #B4E09F;
-}
-.clndr-grid .day.today {
-	background-color: #E3C57F;
-}
-.clndr-grid .empty,
-.clndr-grid .adjacent-month {
-	float: left;
-	width: 25px;
-	height: 25px;
-	background: #ddd;
-}
-.clndr-today-button {
-	width: 100%;
-	text-align: center;
-	cursor: pointer;
-}
-.clndr-today-button:hover {
-	background-color: #ddd;
-}*/

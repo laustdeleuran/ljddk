@@ -31,9 +31,7 @@ metaDescription: Interested in high-quality front-end development or UX design? 
 							<div class="<%= day.classes %>" <%
 								if (day.events.length) {
 									%> title="I'm unfortunately busy this day."<%
-								} else if (day.day == '5' || day.day == '6') {
-
-								} else {
+								} else if (day.classes.indexOf('calendar-dow-6') === -1 && day.classes.indexOf('calendar-dow-0') === -1) {
 									%> title="Looks like I'm available that day! Whoop, whoop!"<%
 								}
 							%>><%= day.day %></div>
@@ -44,7 +42,9 @@ metaDescription: Interested in high-quality front-end development or UX design? 
 			<div class="calendar__today clndr-today-button" tabindex="0">Today</div>
 		</script>
 
-		<div class="calendar__content"></div>
+		<div class="calendar__content">
+			<p class="calendar__loading">Loading calendar&hellip;</p>
+		</div>
 	</section>
 	<h2>Get in touch</h2>
 	<p>I'm  available for freelance work, should you be interested. If so, you should reach out!</p>

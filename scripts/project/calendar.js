@@ -16,13 +16,19 @@ define(['framework/core', 'jquery', 'clndr'], function (core, $) {
 		instance.$content = $container.find('.calendar__content');
 		instance.jsonp = $container.data('jsonp');
 
+		instance.load();
+
+		return instance;
+	}
+	Calendar.prototype.load = function () {
+		var instance = this;
+
 		$.ajax({
 			url: instance.jsonp,
 			dataType: 'jsonp',
 			error: function (xhr, status) {
-				$container
-					.addClass('calendar--error')
-					.append('<div class="calendar__error">' + status + '</div>');
+				instance.$container.addClass('calendar--error');
+				instance.$content.append('<div class="calendar__error">Error: &quot;' + status + '&quot;</div>');
 			},
 			success: function (data) {
 				instance.data = data;
