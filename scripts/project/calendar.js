@@ -6,7 +6,7 @@
 /*jslint plusplus: true, vars: true, browser: true, white:true*/
 /*global require: true, Modernizr: true*/
 
-define(['framework/core', 'jquery', 'clndr'], function (core, $) {
+define(['core', 'jquery', 'clndr'], function (core, $) {
 
 	function Calendar ($container) {
 		var instance = this;
