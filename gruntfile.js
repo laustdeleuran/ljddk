@@ -168,7 +168,8 @@ module.exports = function(grunt) {
 		bump: { // https://github.com/vojtajina/grunt-bump
 			options: {
 				pushTo: 'origin',
-				updateConfigs: [ 'pkg' ]
+				updateConfigs: [ 'pkg' ],
+				commitFiles: ['-a']
 			}
 		},
 		jekyll: {
