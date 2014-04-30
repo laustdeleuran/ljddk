@@ -9,8 +9,9 @@ module.exports = function(grunt) {
 
 	// Config
 	var config = {
-		dev: 'app',
-		host: 'localhost'
+		dev: '_src',
+		host: 'localhost',
+		port: 1337
 	};
 
 	// Project configuration.
@@ -20,7 +21,7 @@ module.exports = function(grunt) {
 		modernizr: {
 			dist: {
 				// [REQUIRED] Path to the build you're using for development.
-				devFile : 'src/components/modernizr/modernizr.js',
+				devFile : '<%=config.dev%>/components/modernizr/modernizr.js',
 
 				// [REQUIRED] Path to save out the built file.
 				'outputFile' : 'scripts/modernizr.min.js',
@@ -60,13 +61,13 @@ module.exports = function(grunt) {
 				// You can override this by defining a 'files' array below.
 				'files' : {
 					'src': [
-						'src/scripts/{,*/}*.js',
-						'src/styles/{,*/}*.css'
+						'<%=config.dev%>/scripts/{,*/}*.js',
+						'<%=config.dev%>/styles/{,*/}*.css'
 					]
 				},
 				'excludeFiles': [
 					'scripts/*.js',
-					'src/components/modernizr/modernizr.js'
+					'<%=config.dev%>/components/modernizr/modernizr.js'
 				],
 
 				// When parseFiles = true, matchCommunityTests = true will attempt to
@@ -78,18 +79,20 @@ module.exports = function(grunt) {
 			}
 		},
 		clean: {
-			build: ['scripts', 'styles', '_layouts', '_posts', 'images']
+			build: ['scripts', 'styles', '_layouts', '_posts', 'images', '_site', '*.html', '*.ico', '*.yml']
 		},
 		requirejs: {
 			compile: {
 				options: {
 					name: '../components/almond/almond',
 					wrap: true,
+					findNestedDependencies: true,
 					preserveLicenseComments: false,
 					insertRequire: ['main'],
-					baseUrl: 'src/scripts/',
-					mainConfigFile: 'src/scripts/config.js',
-					out: 'scripts/scripts.min.js'
+					baseUrl: '<%=config.dev%>/scripts/',
+					mainConfigFile: '<%=config.dev%>/scripts/config.js',
+					out: 'scripts/scripts.min.js',
+					optimize: 'none'
 				}
 			}
 		},
@@ -97,8 +100,8 @@ module.exports = function(grunt) {
 			options: {
 				basePath: '',
 				imagesDir: 'images',
-				cssDir: 'src/styles',
-				sassDir: 'src/styles',
+				cssDir: '<%=config.dev%>/styles',
+				sassDir: '<%=config.dev%>/styles',
 				noLineComments: false,
 				outputStyle: 'expanded',
 				environment: 'development'
@@ -115,11 +118,11 @@ module.exports = function(grunt) {
 			}
 		},
 		copy: {
-			html: {
+			dist: {
 				files: [{
 					expand: true,
-					cwd: 'src/',
-					src: ['{,*/}*.html', '{,*/}*.markdown', '{,*/}*.md'],
+					cwd: '<%=config.dev%>/',
+					src: ['{,*/}*.html', '{,*/}*.markdown', '{,*/}*.md', '*.ico', '*.yml'],
 					dest: '',
 					filter: 'isFile'
 				}]
@@ -128,7 +131,7 @@ module.exports = function(grunt) {
 		imagemin: {
 			dynamic: {
 				expand: true, // Enable dynamic expansion
-				cwd: 'src/images/', // Src matches are relative to this path
+				cwd: '<%=config.dev%>/images/', // Src matches are relative to this path
 				src: ['**/*.{png,jpg,gif}'], // Actual patterns to match
 				dest: 'images/' // Destination path prefix
 			}
@@ -138,39 +141,95 @@ module.exports = function(grunt) {
 				src: ['*.html', '*.markdown', '*.md', '_posts/*.md', '_posts/*.markdown', '_posts/*.html', '_layouts/*.html'],
 				overwrite: true,
 				replacements: [{
-					from: '<script src="/src/components/modernizr/modernizr.js"></script>',
-					to: '<script src="/build/modernizr.min.js"></script>'
+					from: '<script src="/components/modernizr/modernizr.js"></script>',
+					to: '<script src="/scripts/modernizr.min.js"></script>'
 				}, {
-					from: '<script data-main="/src/scripts/config" src="/src/components/requirejs/require.js"></script>',
+					from: '<script data-main="/scripts/config" src="/components/requirejs/require.js"></script>',
 					to: ''
 				}, {
 					from: '<!-- <script src="scripts.min.js"></script> -->',
 					to: '<script src="/scripts/scripts.min.js"></script>'
-				}, {
-					from: '<link rel="stylesheet" href="/src/styles/style.css" media="all" />',
-					to: '<link rel="stylesheet" href="/styles/style.css" media="all" />'
-				}, {
-					from: '<link rel="stylesheet" href="/src/styles/print.css" media="print" />',
-					to: '<link rel="stylesheet" href="/styles/print.css" media="all" />'
 				}]
 			}
 		},
 		watch: {
 			sass: {
-				files: ['src/styles/{,*/}{,*/}*.scss'],
-				tasks: ['compass:dev']
+				files: ['<%=config.dev%>/styles/{,*/}{,*/}*.scss'],
+				tasks: ['compass:dev', 'jekyll:dev']
 			},
 			content: {
-				files: ['src/{,*/}*.html', 'src/{,*/}*.markdown', 'src/{,*/}*.md'],
-				tasks: ['copy:html']
+				files: ['<%=config.dev%>/*.html', '<%=config.dev%>/{,*/}*.markdown', '<%=config.dev%>/{,*/}*.md'],
+				tasks: ['jekyll:dev']
 			},
 		},
 		bump: { // https://github.com/vojtajina/grunt-bump
 			options: {
 				pushTo: 'origin'
 			}
+		},
+		jekyll: {
+			options: {
+				serve: false,
+				watch: false,
+				exclude: [ '<%=config.dev%>' ]
+			},
+			build: {
+				options: {
+					host: config.host,
+					port: config.port,
+					serve: true
+				}
+			},
+			watch: {
+				options: {
+					host: config.host,
+					port: config.port,
+					src: '<%=config.dev%>',
+					serve: true,
+					watch: true
+				}
+			},
+			dev: {
+				options: {
+					serve: false,
+					watch: false,
+					src: '<%=config.dev%>',
+				}
+			}
+		},
+		connect: {
+			dev: {
+				options: {
+					hostname: config.host,
+					port: config.port,
+					base: '_site',
+					keepalive: true,
+					livereload: true
+				}
+			}
+		},
+		open: {
+			dev: {
+				path: 'http://<%=config.host%>:<%=config.port%>/',
+				app: 'Google Chrome'
+			}
+		},
+		parallel: {
+			dev: {
+				options: {
+					grunt: true,
+					stream: true
+				},
+				tasks: ['connect:dev', 'watch', 'open:dev']
+			},
+			build: {
+				options: {
+					grunt: true,
+					stream: true
+				},
+				tasks: ['jekyll:build', 'open']
+			}
 		}
-		// ADD https://github.com/dannygarcia/grunt-jekyll
 	});
 
 	// Build for distribution to 3rd party vendor
@@ -179,15 +238,20 @@ module.exports = function(grunt) {
 		'requirejs',
 		'modernizr',
 		'compass:build',
-		'copy:html',
+		'copy:dist',
 		'imagemin',
 		'replace:compiled'
+	]);
+
+	grunt.registerTask('build-serve', [
+		'build',
+		'parallel:build'
 	]);
 
 	// Run simple server for development
 	grunt.registerTask('develop', [
 		'compass:dev',
-		'copy:html',
-		'watch'
+		'jekyll:dev',
+		'parallel:dev'
 	]);
 };
