@@ -161,7 +161,7 @@ module.exports = function(grunt) {
 				tasks: ['compass:dev', 'jekyll:dev']
 			},
 			content: {
-				files: ['<%=config.dev%>/*.html', '<%=config.dev%>/{,*/}*.markdown', '<%=config.dev%>/{,*/}*.md'],
+				files: ['<%=config.dev%>/{,*/}*.html', '<%=config.dev%>/{,*/}*.markdown', '<%=config.dev%>/{,*/}*.md'],
 				tasks: ['jekyll:dev']
 			}
 		},
