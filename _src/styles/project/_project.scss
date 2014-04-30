@@ -5,5 +5,61 @@
 * @author  laustdeleuran
 */
 .project {
-	background: #ff0;
+}
+.project__meta {
+	display: block;
+	overflow: hidden;
+
+	dt,
+	dd {
+		display: block;
+		float: left;
+		margin: 0 0.25em 0 0;
+		padding: 0;
+	}
+	dt {
+		clear: left;
+		
+		font-weight: bold;
+	}
+	dt:after {
+		content:': ';
+	}
+	dd + dd:before {
+		content: ' & ';
+	} 
+}
+.project__title {
+	clear: both;
+}
+.project__figure {
+	@include trailer(1);
+	border: 5px solid $color-grey-light;
+	overflow: hidden;
+	float: left;
+	clear: both;
+
+	position: relative;
+
+	ul,
+	li,
+	img {
+		display: block;
+		margin: 0;
+		list-style: none;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+.project--small {
+	.project__title {
+		@extend .type__h2;
+	}
+	.project__desc {
+		h2 {
+			@extend .type__h3;
+		}
+	}
 }

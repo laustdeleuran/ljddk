@@ -645,6 +645,7 @@ h2,
 .intro__header,
 .intro__content,
 .post .post__text h1,
+.project--small .project__title,
 h3,
 .type__h3,
 .post h1,
@@ -652,6 +653,7 @@ h3,
 .post h3,
 .post__meta .post__permalink,
 .post__quote p,
+.project--small .project__desc h2,
 h4,
 .type__h4,
 h5,
@@ -672,6 +674,7 @@ h2 * html,
 .intro__header * html,
 .intro__content * html,
 .post .post__text h1 * html,
+.project--small .project__title * html,
 h3 * html,
 .type__h3 * html,
 .post h1 * html,
@@ -679,6 +682,7 @@ h3 * html,
 .post h3 * html,
 .post__meta .post__permalink * html,
 .post__quote p * html,
+.project--small .project__desc h2 * html,
 h4 * html,
 .type__h4 * html,
 h5 * html,
@@ -695,6 +699,7 @@ h2 html,
 .intro__header html,
 .intro__content html,
 .post .post__text h1 html,
+.project--small .project__title html,
 h3 html,
 .type__h3 html,
 .post h1 html,
@@ -702,6 +707,7 @@ h3 html,
 .post h3 html,
 .post__meta .post__permalink html,
 .post__quote p html,
+.project--small .project__desc h2 html,
 h4 html,
 .type__h4 html,
 h5 html,
@@ -719,6 +725,7 @@ h2:first-child,
 .intro__header:first-child,
 .intro__content:first-child,
 .post .post__text h1:first-child,
+.project--small .project__title:first-child,
 h3:first-child,
 .type__h3:first-child,
 .post h1:first-child,
@@ -726,6 +733,7 @@ h3:first-child,
 .post h3:first-child,
 .post__meta .post__permalink:first-child,
 .post__quote p:first-child,
+.project--small .project__desc h2:first-child,
 h4:first-child,
 .type__h4:first-child,
 h5:first-child,
@@ -749,7 +757,8 @@ h2,
 .type__h2,
 .intro__header,
 .intro__content,
-.post .post__text h1 {
+.post .post__text h1,
+.project--small .project__title {
   font-size: 2.5em;
   line-height: 1.1111111111111112em;
   margin-top: 1.1111111111111112em;
@@ -763,7 +772,8 @@ h3,
 .post h2,
 .post h3,
 .post__meta .post__permalink,
-.post__quote p {
+.post__quote p,
+.project--small .project__desc h2 {
   font-size: 1.5em;
   line-height: 1.3888888888888888em;
   margin-top: 1.851851851851852em;
@@ -874,7 +884,8 @@ th {
   .type__h2,
   .intro__header,
   .intro__content,
-  .post .post__text h1 {
+  .post .post__text h1,
+  .project--small .project__title {
     font-size: 1.7777777777777777em;
     line-height: 1.5625em;
     margin-top: 1.5625em;
@@ -888,7 +899,8 @@ th {
   .post h2,
   .post h3,
   .post__meta .post__permalink,
-  .post__quote p {
+  .post__quote p,
+  .project--small .project__desc h2 {
     font-size: 1.3333333333333333em;
     line-height: 1.5625em;
     margin-top: 2.0833333333333335em;
@@ -917,7 +929,8 @@ th {
   .type__h2,
   .intro__header,
   .intro__content,
-  .post .post__text h1 {
+  .post .post__text h1,
+  .project--small .project__title {
     font-size: 1.3333333333333333em;
     line-height: 1.5625em;
     margin-top: 2.0833333333333335em;
@@ -931,7 +944,8 @@ th {
   .post h2,
   .post h3,
   .post__meta .post__permalink,
-  .post__quote p {
+  .post__quote p,
+  .project--small .project__desc h2 {
     font-size: 1em;
     line-height: 1.3888888888888888em;
     margin-top: 2.7777777777777777em;
@@ -1924,6 +1938,13 @@ th {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_block-list\.scss}line{font-family:\0000313}}
 .block-list > li {
   margin-bottom: 1.3888888888888888em;
+  border-top: 0.0555555555555556em solid #bbbbbb;
+  padding-top: 1.3888888888888888em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_block-list\.scss}line{font-family:\0000318}}
+.block-list > li:first-child {
+  border-top: none;
+  padding-top: 0em;
 }
 
 /**
@@ -1932,7 +1953,57 @@ th {
 * @section Block
 * @author  laustdeleuran
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\000037}}
-.project {
-  background: #ff0;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\000039}}
+.project__meta {
+  display: block;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000314}}
+.project__meta dt,
+.project__meta dd {
+  display: block;
+  float: left;
+  margin: 0 0.25em 0 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000320}}
+.project__meta dt {
+  clear: left;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000325}}
+.project__meta dt:after {
+  content: ': ';
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000328}}
+.project__meta dd + dd:before {
+  content: ' & ';
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000332}}
+.project__title {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000335}}
+.project__figure {
+  margin-bottom: 1.3888888888888888em;
+  border: 5px solid #bbbbbb;
+  overflow: hidden;
+  float: left;
+  clear: both;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000346}}
+.project__figure ul,
+.project__figure li,
+.project__figure img {
+  display: block;
+  margin: 0;
+  list-style: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000351}}
+.project__figure img {
+  max-width: 100%;
+  height: auto;
 }
