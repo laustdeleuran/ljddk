@@ -14,12 +14,6 @@
 # preferred_syntax = :sass
 # and then run:
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
-
+Sass::Script::Number.precision = 16
 sass_options = {:debug_info=>true} # by Compass.app 
 line_comments = false # by Compass.app 
-output_style = :compressed
-http_path = "/"
-css_dir = "styles"
-sass_dir = "styles"
-images_dir = "images"
-javascripts_dir = "scripts"
