@@ -1,6 +1,6 @@
 /_site
 /.sass-cache
 /node_modules
-/css
+/_src/components
 ._*
 .DS_Store
