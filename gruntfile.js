@@ -92,7 +92,7 @@ module.exports = function(grunt) {
 					baseUrl: '<%=config.dev%>/scripts/',
 					mainConfigFile: '<%=config.dev%>/scripts/config.js',
 					out: 'scripts/scripts.min.js',
-					optimize: 'none'
+					optimize: 'uglify'
 				}
 			}
 		},
@@ -142,13 +142,16 @@ module.exports = function(grunt) {
 				overwrite: true,
 				replacements: [{
 					from: '<script src="/components/modernizr/modernizr.js"></script>',
-					to: '<script src="/scripts/modernizr.min.js"></script>'
+					to: '<script src="/scripts/modernizr.min.js?version=<%=pkg.version%>"></script>'
 				}, {
 					from: '<script data-main="/scripts/config" src="/components/requirejs/require.js"></script>',
 					to: ''
 				}, {
 					from: '<!-- <script src="scripts.min.js"></script> -->',
-					to: '<script src="/scripts/scripts.min.js"></script>'
+					to: '<script src="/scripts/scripts.min.js?version=<%=pkg.version%>"></script>'
+				}, {
+					from: '%APPVERSION%',
+					to: '<%=pkg.version%>'
 				}]
 			}
 		},
@@ -164,7 +167,8 @@ module.exports = function(grunt) {
 		},
 		bump: { // https://github.com/vojtajina/grunt-bump
 			options: {
-				pushTo: 'origin'
+				pushTo: 'origin',
+				updateConfigs: [ 'pkg' ]
 			}
 		},
 		jekyll: {
@@ -243,6 +247,7 @@ module.exports = function(grunt) {
 		'replace:compiled'
 	]);
 
+	// Use Jekyll server to test build results
 	grunt.registerTask('build-serve', [
 		'build',
 		'parallel:build'
@@ -253,5 +258,22 @@ module.exports = function(grunt) {
 		'compass:dev',
 		'jekyll:dev',
 		'parallel:dev'
+	]);
+
+	// Bump version number, rebuild, tag and commit
+	grunt.registerTask('build-bump', [
+		'bump-only',
+		'build',
+		'bump-commit'
+	]);
+	grunt.registerTask('build-bump-minor', [
+		'bump-only:minor',
+		'build',
+		'bump-commit'
+	]);
+	grunt.registerTask('build-bump-major', [
+		'bump-only:major',
+		'build',
+		'bump-commit'
 	]);
 };
