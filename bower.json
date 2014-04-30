@@ -1,6 +1,7 @@
 {
 	"name": "ljd.dk - Laust Johan Deleuran",
 	"dependencies": {
+		"almond": "latest",
 		"requirejs": "latest",
 		"jquery": "~1.9",
 		"modernizr": "latest",
