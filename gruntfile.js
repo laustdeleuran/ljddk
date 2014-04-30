@@ -163,7 +163,7 @@ module.exports = function(grunt) {
 			content: {
 				files: ['<%=config.dev%>/*.html', '<%=config.dev%>/{,*/}*.markdown', '<%=config.dev%>/{,*/}*.md'],
 				tasks: ['jekyll:dev']
-			},
+			}
 		},
 		bump: { // https://github.com/vojtajina/grunt-bump
 			options: {

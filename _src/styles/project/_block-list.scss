@@ -1,0 +1,22 @@
+/**
+* Block list
+*
+* @section Block
+* @author  laustdeleuran
+*/
+.block-list,
+.block-list>li {
+	display: block;
+	list-style: none;
+	overflow: hidden;
+}
+.block-list>li {
+	@include trailer(1);
+	border-top: em(1px) solid $color-grey-light;
+	@include padding-leader(1);
+
+	&:first-child {
+		border-top: none;
+		@include padding-leader(0);		
+	}
+}
