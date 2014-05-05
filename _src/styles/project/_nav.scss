@@ -57,9 +57,14 @@
 		border: none;
 	}
 }
-@media screen and (max-height:700px) {
+@media screen and (max-height:799px) {
 	.nav {
-		padding: 0;
+		padding: em($unit / 2) 0;
+	}
+}
+@media screen and (max-height:600px) {
+	.nav {
+		padding:x 0;
 	}
 }
 @media screen and (max-width:600px) {

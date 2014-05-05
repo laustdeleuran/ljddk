@@ -574,14 +574,20 @@ a:hover, a:active, a:focus {
   border: none;
 }
 
-@media screen and (max-height: 700px) {
+@media screen and (max-height: 799px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000361}}
   .nav {
-    padding: 0;
+    padding: 2.7777777777777777em 0;
+  }
+}
+@media screen and (max-height: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000366}}
+  .nav {
+    padding: x 0;
   }
 }
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000371}}
   .nav {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -601,22 +607,22 @@ a:hover, a:active, a:focus {
     background-attachment: local, local, scroll, scroll;
     box-shadow: inset 0 -5px rgba(0, 0, 0, 0.25);
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000386}}
   .nav ul {
     min-width: 30.555555555555557em;
     overflow: hidden;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000390}}
   .nav li {
     float: left;
   }
 }
 @media screen and (max-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000396}}
   .nav {
     padding: 0 1.3888888888888888em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000399}}
   .nav ul {
     min-width: 29.166666666666668em;
   }
