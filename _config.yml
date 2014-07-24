@@ -1,5 +1,5 @@
 name: Laust Johan Deleuran &ndash; UX designer & front-end developer.
-image: /images/content/intro-7-color.jpg
+image: http://ljd.dk/images/content/intro-7-color.jpg
 markdown: redcarpet
 pygments: true
 exclude: [_src, node_modules]
