@@ -129,9 +129,9 @@ th {
 @media screen and (max-width:400px) {
 	h1,
 	.type__h1 {
-		@include adjust-font-size-to(36px);
-		@include leader(2, 36px);
-		@include trailer(1, 36px);
+		@include adjust-font-size-to(32px);
+		@include leader(2, 32px);
+		@include trailer(1, 32px);
 	}
 	h2,
 	.type__h2 {
