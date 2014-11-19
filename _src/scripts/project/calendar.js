@@ -6,7 +6,7 @@
 /*jslint plusplus: true, vars: true, browser: true, white:true*/
 /*global require: true, Modernizr: true*/
 
-define(['core', 'jquery', 'clndr'], function (core, $) {
+define(['core', 'moment', 'jquery', 'clndr'], function (core, moment, $) {
 
 	function Calendar ($container) {
 		var instance = this;
@@ -14,7 +14,7 @@ define(['core', 'jquery', 'clndr'], function (core, $) {
 		instance.$container = $container;
 		instance.$template = $container.find('.calendar__template');
 		instance.$content = $container.find('.calendar__content');
-		instance.jsonp = $container.data('jsonp');
+		instance.rest = $container.data('rest');
 
 		instance.load();
 
@@ -24,8 +24,8 @@ define(['core', 'jquery', 'clndr'], function (core, $) {
 		var instance = this;
 
 		$.ajax({
-			url: instance.jsonp,
-			dataType: 'jsonp',
+			url: instance.rest + '&timemin=' + moment().subtract(2, 'months').format(),
+			dataType: 'json',
 			error: function (xhr, status) {
 				instance.$container.addClass('calendar--error');
 				instance.$content.append('<div class="calendar__error">Error: &quot;' + status + '&quot;</div>');
@@ -37,7 +37,7 @@ define(['core', 'jquery', 'clndr'], function (core, $) {
 		});
 
 		return instance;
-	}
+	};
 	Calendar.prototype.init = function () {
 		var instance = this;
 
@@ -64,19 +64,19 @@ define(['core', 'jquery', 'clndr'], function (core, $) {
 
 		instance.events = [];
 
-		if (!instance.data || !instance.data.feed || !instance.data.feed.entry || typeof instance.data.feed.entry !== 'object') {
+		if (!instance.data || !instance.data.items) {
 			new core.Error('Unable to parse JSON data from Google Calendar Data API');
 			return instance.events;
 		}
 
-		$.each(instance.data.feed.entry, function (index, item) {
+		$.each(instance.data.items, function (index, item) {
 			instance.events.push({
-				date: item.gd$when[0].startTime,
-				startTime: item.gd$when[0].startTime,
-				endTime: item.gd$when[0].endTime,
-				title: item.title.$t,
-				link: item.link[0].href,
-				id: item.id.$t
+				date: item.start.dateTime ? moment(item.start.dateTime).format('YYYY-MM-DD') : undefined,
+				startTime: item.start.dateTime,
+				endTime: item.end.dateTime,
+				title: item.title,
+				link: item.link,
+				id: item.id
 			});
 		});
 
