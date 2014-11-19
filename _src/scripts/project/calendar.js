@@ -14,7 +14,7 @@ define(['core', 'moment', 'jquery', 'clndr'], function (core, moment, $) {
 		instance.$container = $container;
 		instance.$template = $container.find('.calendar__template');
 		instance.$content = $container.find('.calendar__content');
-		instance.rest = $container.data('rest');
+		instance.rest = $container.data('rest').replace('##TIMEMIN##', encodeURIComponent(moment().subtract(2, 'months').format()));
 
 		instance.load();
 
@@ -24,7 +24,7 @@ define(['core', 'moment', 'jquery', 'clndr'], function (core, moment, $) {
 		var instance = this;
 
 		$.ajax({
-			url: instance.rest + '&timemin=' + moment().subtract(2, 'months').format(),
+			url: instance.rest,
 			dataType: 'json',
 			error: function (xhr, status) {
 				instance.$container.addClass('calendar--error');
