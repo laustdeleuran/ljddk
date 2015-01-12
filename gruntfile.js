@@ -122,7 +122,7 @@ module.exports = function(grunt) {
 				files: [{
 					expand: true,
 					cwd: '<%=config.dev%>/',
-					src: ['{,*/}*.html', '{,*/}*.markdown', '{,*/}*.md', '*.ico', '*.yml'],
+					src: ['{,*/}*.html', '{,*/}*.pdf', '{,*/}*.markdown', '{,*/}*.md', '*.ico', '*.yml'],
 					dest: '',
 					filter: 'isFile'
 				}]
