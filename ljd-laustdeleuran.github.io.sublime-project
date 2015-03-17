@@ -1,0 +1,30 @@
+{
+	"folders":
+	[
+		{
+			"path": "_src",
+			"name": "source",
+			"closed": true,
+			"folder_exclude_patterns": [
+				"_src/components"
+			]
+		},
+		{
+			"path": ".",
+			"name": "root",
+			"folder_exclude_patterns": [
+				"_src",
+				"_layouts",
+				"_posts",
+				"images",
+				"scripts",
+				"styles"
+			],
+			"file_exclude_patterns": [
+				"*.html",
+				"*.ico",
+				"*.yml"
+			]
+		}
+	]
+}
