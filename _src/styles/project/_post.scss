@@ -112,10 +112,6 @@
 	}
 }
 .post__quote {
-	>p,
-	.post__quote-inner {
-		@extend .type__h3;	
-	}
 	cite {
 		display: block;
 
@@ -134,6 +130,21 @@
 		&:after {
 			display: none;
 		}
+	}
+}
+.post__quote-inner {
+	@extend .type__h3;	
+
+	position: relative;
+
+	&:before {
+		content: "“";
+
+		position: absolute;
+		right: 100%;
+	}
+	&:after {
+		content: "”";
 	}
 }
 .post__photo {
