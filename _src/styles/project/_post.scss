@@ -112,7 +112,8 @@
 	}
 }
 .post__quote {
-	p {
+	>p,
+	.post__quote-inner {
 		@extend .type__h3;	
 	}
 	cite {
