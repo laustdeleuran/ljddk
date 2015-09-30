@@ -13,6 +13,7 @@
 			"path": ".",
 			"name": "root",
 			"folder_exclude_patterns": [
+				"_site",
 				"_src",
 				"_layouts",
 				"_posts",
