@@ -9,13 +9,11 @@ require([
 	'core',
 	'jquery',
 	'imagesloaded',
-	'project/calendar',
 	'waypoints'
 ], function(
 	core,
 	$,
-	ImagesLoaded,
-	Calendar
+	ImagesLoaded
 ) {
 	'use strict';
 
@@ -152,11 +150,6 @@ require([
 					}
 				});
 			});
-		});
-
-		// Calendar
-		$('.calendar').each(function () {
-			new Calendar($(this));
 		});
 	});
 });
