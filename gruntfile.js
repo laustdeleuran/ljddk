@@ -21,31 +21,16 @@ module.exports = function(grunt) {
 		modernizr: {
 			dist: {
 				// [REQUIRED] Path to the build you're using for development.
-				devFile : '<%=config.dev%>/components/modernizr/modernizr.js',
+				'devFile' : '<%=config.dev%>/components/modernizr/modernizr.js',
 
 				// [REQUIRED] Path to save out the built file.
 				'dest' : 'scripts/modernizr.min.js',
 
 				// Based on default settings on http://modernizr.com/download/
-				'extra' : {
-					'shiv' : true,
-					'printshiv' : false,
-					'load' : true,
-					'mq' : false,
-					'cssclasses' : true
-				},
-
-				// Based on default settings on http://modernizr.com/download/
-				'extensibility' : {
-					'addtest' : false,
-					'prefixed' : false,
-					'teststyles' : false,
-					'testprops' : false,
-					'testallprops' : false,
-					'hasevents' : false,
-					'prefixes' : false,
-					'domprefixes' : false
-				},
+				'options': [
+					'html5shiv',
+					'setClasses'
+				],
 
 				// By default, source is uglified before saving
 				'uglify' : true,
