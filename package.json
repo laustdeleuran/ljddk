@@ -2,7 +2,7 @@
   "name": "ljd-personal-website",
   "description": "Personal website for Laust Johan Deleuran (that's me!)",
   "private": true,
-  "version": "1.8.21",
+  "version": "1.8.22",
   "author": "Laust Johan Deleuran @ LJD <ljd@ljd.dk>",
   "devDependencies": {
     "grunt": "~0.4.4",
