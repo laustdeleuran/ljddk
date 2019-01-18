@@ -33,20 +33,12 @@ require([
 					credit: 'Photo by <a href="http://www.jordanisip.com" class="fn n url" target="_blank">Jordan Isip</a>'
 				},
 				{
-					url: '/images/content/intro-2.jpg',
-					credit: 'Photo by <a href="https://www.facebook.com/kastania.rasmussen" class="fn n url" target="_blank">Kastania Rasmussen</span>'
-				},
-				{
 					url: '/images/content/intro-3.jpg',
 					credit: 'Photo by <a href="http://www.jordanisip.com" class="fn n url" target="_blank">Jordan Isip</a>'
 				},
 				{
 					url: '/images/content/intro-6.jpg',
 					credit: 'Photo by <a href="http://bkristiansen.com/" class="fn n url" target="_blank">Bjørn Kristiansen</a>'
-				},
-				{
-					url: '/images/content/intro-7.jpg',
-					credit: 'Photo by <a href="https://www.facebook.com/kastania.rasmussen" class="fn n url" target="_blank">Kastania Rasmussen</span>'
 				}
 			];
 			image = Math.floor( Math.random() * images.length );
