@@ -11,7 +11,7 @@
 * @section Base
 * @author  laustdeleuran
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_framework\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_framework\.scss}line{font-family:\000038}}
 .post:after {
   content: ".";
   display: block;
@@ -19,25 +19,25 @@
   clear: both;
   visibility: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_framework\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_framework\.scss}line{font-family:\0000315}}
 .ie7 .post {
   min-height: 1px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_framework\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_framework\.scss}line{font-family:\0000317}}
 .intro__bg:after, .intro__content:before {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_framework\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_framework\.scss}line{font-family:\0000322}}
 .intro__bg:after, .intro__content:before {
   content: ".";
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_framework\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_framework\.scss}line{font-family:\0000327}}
 html,
 body, .content, .intro, .embed, .embed iframe,
 .embed object,
@@ -53,7 +53,7 @@ body, .content, .intro, .embed, .embed iframe,
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\0000311}}
 article,
 aside,
 details,
@@ -72,7 +72,7 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\0000330}}
 audio,
 canvas,
 video {
@@ -83,7 +83,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\0000341}}
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -92,7 +92,7 @@ audio:not([controls]) {
 /**
  * Address styling not present in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\0000350}}
 [hidden] {
   display: none;
 }
@@ -105,7 +105,7 @@ audio:not([controls]) {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\0000364}}
 html {
   font-family: sans-serif;
   /* 1 */
@@ -118,7 +118,7 @@ html {
 /**
  * Remove default margin.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\0000374}}
 body {
   margin: 0;
 }
@@ -129,7 +129,7 @@ body {
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\0000386}}
 a:focus {
   outline: thin dotted;
 }
@@ -137,7 +137,7 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\0000394}}
 a:active,
 a:hover {
   outline: 0;
@@ -150,7 +150,7 @@ a:hover {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003108}}
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -159,7 +159,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003117}}
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -167,7 +167,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003125}}
 b,
 strong {
   font-weight: bold;
@@ -176,7 +176,7 @@ strong {
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003134}}
 dfn {
   font-style: italic;
 }
@@ -184,7 +184,7 @@ dfn {
 /**
  * Address differences between Firefox and other browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003142}}
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -194,7 +194,7 @@ hr {
 /**
  * Address styling not present in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003152}}
 mark {
   background: #ff0;
   color: #000;
@@ -203,7 +203,7 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003161}}
 code,
 kbd,
 pre,
@@ -215,7 +215,7 @@ samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003173}}
 pre {
   white-space: pre-wrap;
 }
@@ -223,7 +223,7 @@ pre {
 /**
  * Set consistent quote types.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003181}}
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
@@ -231,7 +231,7 @@ q {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003189}}
 small {
   font-size: 80%;
 }
@@ -239,7 +239,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003197}}
 sub,
 sup {
   font-size: 75%;
@@ -248,12 +248,12 @@ sup {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003205}}
 sup {
   top: -0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003209}}
 sub {
   bottom: -0.25em;
 }
@@ -264,7 +264,7 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003221}}
 img {
   border: 0;
 }
@@ -272,7 +272,7 @@ img {
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003229}}
 svg:not(:root) {
   overflow: hidden;
 }
@@ -283,7 +283,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003241}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003241}}
 figure {
   margin: 0;
 }
@@ -294,7 +294,7 @@ figure {
 /**
  * Define consistent border, margin, and padding.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003253}}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -305,7 +305,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003264}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003264}}
 legend {
   border: 0;
   /* 1 */
@@ -318,7 +318,7 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003275}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003275}}
 button,
 input,
 select,
@@ -335,7 +335,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003289}}
 button,
 input {
   line-height: normal;
@@ -347,7 +347,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003301}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003301}}
 button,
 select {
   text-transform: none;
@@ -360,7 +360,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003314}}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -374,7 +374,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003326}}
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -384,7 +384,7 @@ html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9.
  * 2. Remove excess padding in IE 8/9.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003336}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -398,7 +398,7 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003348}}
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -412,7 +412,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003360}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -421,7 +421,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003369}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -432,7 +432,7 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003380}}
 textarea {
   overflow: auto;
   /* 1 */
@@ -446,7 +446,7 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/framework\/_normalize\.scss}line{font-family:\00003393}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -464,7 +464,7 @@ table {
 * @section Base
 * @author  laustdeleuran
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_baseline\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_baseline\.scss}line{font-family:\000037}}
 html {
   font-size: 112.5%;
   font-family: Lato, Helvetica, Helvetica Neue, Arial, sans-serif;
@@ -474,7 +474,7 @@ html {
   color: #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_baseline\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_baseline\.scss}line{font-family:\0000319}}
 a {
   border-bottom: 1px solid transparent;
   color: #00cd91;
@@ -485,7 +485,7 @@ a {
   -webkit-transition: ease 0.2s;
   transition: ease 0.2s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_baseline\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_baseline\.scss}line{font-family:\0000330}}
 a:hover, a:active, a:focus {
   border-bottom-color: #00cd91;
 }
@@ -496,13 +496,13 @@ a:hover, a:active, a:focus {
 * @section Block
 * @author  laustdeleuran
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_content\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_content\.scss}line{font-family:\000037}}
 .content {
   padding-left: 5.555555555555555em;
 }
 
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_content\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_content\.scss}line{font-family:\0000313}}
   .content {
     padding-left: 0;
   }
@@ -513,7 +513,7 @@ a:hover, a:active, a:focus {
 * @section Block
 * @author  laustdeleuran
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\000037}}
 .nav {
   width: 5.555555555555555em;
   padding: 5.555555555555555em 0;
@@ -534,19 +534,19 @@ a:hover, a:active, a:focus {
   background-attachment: local, local, scroll, scroll;
   box-shadow: inset -5px 0 rgba(0, 0, 0, 0.25);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000326}}
 .nav ul,
 .nav li {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000331}}
 .nav li {
   display: block;
   width: 5.555555555555555em;
   height: 5.555555555555555em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000336}}
 .nav a {
   display: table-cell;
   width: 5.555555555555555em;
@@ -561,33 +561,33 @@ a:hover, a:active, a:focus {
   -webkit-transition: color 0.2s ease-out;
   transition: color 0.2s ease-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000349}}
 .nav a:hover {
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000352}}
 .nav a.nav--active {
   background-color: rgba(255, 255, 255, 0.05);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000356}}
 .nav a {
   border: none;
 }
 
 @media screen and (max-height: 799px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000361}}
   .nav {
     padding: 2.7777777777777777em 0;
   }
 }
 @media screen and (max-height: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000366}}
   .nav {
     padding: x 0;
   }
 }
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000371}}
   .nav {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -607,22 +607,22 @@ a:hover, a:active, a:focus {
     background-attachment: local, local, scroll, scroll;
     box-shadow: inset 0 -5px rgba(0, 0, 0, 0.25);
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000386}}
   .nav ul {
     min-width: 30.555555555555557em;
     overflow: hidden;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000390}}
   .nav li {
     float: left;
   }
 }
 @media screen and (max-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000396}}
   .nav {
     padding: 0 1.3888888888888888em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_nav\.scss}line{font-family:\0000399}}
   .nav ul {
     min-width: 34.72222222222222em;
   }
@@ -633,17 +633,17 @@ a:hover, a:active, a:focus {
 * @section Block
 * @author  laustdeleuran
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\000037}}
 .type__serif {
   font-family: Playfair Display, Georgia, Times, serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000310}}
 .type__sansserif {
   font-family: Lato, Helvetica, Helvetica Neue, Arial, sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000313}}
 h1,
 .type__h1,
 h2,
@@ -672,7 +672,7 @@ h6,
   font-style: normal;
   font-family: Playfair Display, Georgia, Times, serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.0\.0\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/2\.3\.0\/gems\/compass-core-1\.0\.3\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\00003106}}
 h1 html,
 .type__h1 html,
 h2 html,
@@ -698,7 +698,7 @@ h6 html,
   font-size: 112.5%;
   line-height: 1.3888888888888888em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000333}}
 h1:first-child,
 .type__h1:first-child,
 h2:first-child,
@@ -724,7 +724,7 @@ h6:first-child,
   margin-top: 0em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000337}}
 h1,
 .type__h1 {
   font-size: 3.5em;
@@ -733,7 +733,7 @@ h1,
   margin-bottom: 0.3968253968253968em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000343}}
 h2,
 .type__h2,
 .intro__header,
@@ -746,7 +746,7 @@ h2,
   margin-bottom: 0.5555555555555556em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000349}}
 h3,
 .type__h3,
 .post h1,
@@ -761,14 +761,14 @@ h3,
   margin-bottom: 0.925925925925926em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000355}}
 .type__blink {
   -webkit-animation: typeBlink 0.5s steps(1) infinite alternate;
   -moz-animation: typeBlink 0.5s steps(1) infinite alternate;
   animation: typeBlink 0.5s steps(1) infinite alternate;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000360}}
 p,
 ol,
 ul,
@@ -782,18 +782,18 @@ figcaption {
   margin-bottom: 1.3888888888888888em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000372}}
 code {
   font-size: 0.8888888888888888em;
   line-height: 1.5625em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000375}}
 table {
   margin-bottom: 1.3888888888888888em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000378}}
 table,
 tr,
 td,
@@ -802,7 +802,7 @@ th {
   vertical-align: top;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\0000385}}
 td,
 th {
   padding: 0 0.6944444444444444em 0 0;
@@ -842,7 +842,7 @@ th {
   }
 }
 @media screen and (max-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\00003105}}
   h1,
   .type__h1 {
     font-size: 2.5em;
@@ -851,7 +851,7 @@ th {
     margin-bottom: 0.5555555555555556em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\00003111}}
   h2,
   .type__h2,
   .intro__header,
@@ -864,7 +864,7 @@ th {
     margin-bottom: 0.6944444444444444em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\00003117}}
   h3,
   .type__h3,
   .post h1,
@@ -879,7 +879,7 @@ th {
     margin-bottom: 1.0416666666666667em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\00003123}}
   .type__blink {
     -webkit-animation: typeBlink 0.5s steps(1) infinite alternate;
     -moz-animation: typeBlink 0.5s steps(1) infinite alternate;
@@ -887,7 +887,7 @@ th {
   }
 }
 @media screen and (max-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\00003130}}
   h1,
   .type__h1 {
     font-size: 1.7777777777777777em;
@@ -896,7 +896,7 @@ th {
     margin-bottom: 0.78125em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\00003136}}
   h2,
   .type__h2,
   .intro__header,
@@ -909,7 +909,7 @@ th {
     margin-bottom: 1.0416666666666667em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\00003142}}
   h3,
   .type__h3,
   .post h1,
@@ -924,7 +924,7 @@ th {
     margin-bottom: 1.3888888888888888em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_type\.scss}line{font-family:\00003148}}
   .type__blink {
     -webkit-animation: typeBlink 0.5s steps(1) infinite alternate;
     -moz-animation: typeBlink 0.5s steps(1) infinite alternate;
@@ -937,7 +937,7 @@ th {
 * @section Block
 * @author  laustdeleuran
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\000037}}
 .intro {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -955,7 +955,7 @@ th {
   background-color: #404040;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000326}}
 .intro__bg {
   position: absolute;
   top: 0;
@@ -965,11 +965,11 @@ th {
   background: url(../images/content/intro-1.jpg) top center no-repeat;
   background-size: cover;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000336}}
 .js .intro__bg {
   opacity: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000339}}
 .intro__bg:after {
   position: absolute;
   top: 0;
@@ -978,12 +978,12 @@ th {
   left: 0;
   background-color: rgba(0, 0, 0, 0.2);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000350}}
 .js .intro__bg:after {
   opacity: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000355}}
 .intro__header,
 .intro__content {
   margin: 0;
@@ -993,7 +993,7 @@ th {
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000367}}
 .js .intro__header,
 .js .intro__content-inner {
   opacity: 0;
@@ -1003,20 +1003,20 @@ th {
   transform: translateY(20px);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000372}}
 .intro__header {
   float: left;
   margin-right: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000376}}
 .intro__content {
   overflow: hidden;
   padding-left: 1em;
   padding-bottom: 0.15em;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000383}}
 .intro__content:before {
   width: 10px;
   height: 0;
@@ -1026,7 +1026,7 @@ th {
   background: #56f29c;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\0000396}}
 .intro__credit {
   font-size: 0.6666666666666666em;
   line-height: 2.0833333333333335em;
@@ -1041,40 +1041,40 @@ th {
   -webkit-transition-delay: 0.5s;
   transition: opacity 0.5s ease-out 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003108}}
 .js .intro__credit {
   opacity: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003114}}
 .intro--init .intro__bg {
   -webkit-animation: introFadeIn 0.75s cubic-bezier(0.165, 0.84, 0.44, 1) 0s both;
   -moz-animation: introFadeIn 0.75s cubic-bezier(0.165, 0.84, 0.44, 1) 0s both;
   animation: introFadeIn 0.75s cubic-bezier(0.165, 0.84, 0.44, 1) 0s both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003119}}
 .intro--init .intro__bg:after {
   -webkit-animation: introFadeIn 0.5s ease-out 0s both;
   -moz-animation: introFadeIn 0.5s ease-out 0s both;
   animation: introFadeIn 0.5s ease-out 0s both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003125}}
 .intro--init .intro__credit {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003128}}
 .intro--init .intro__header {
   -webkit-animation: introContentFadeIn 0.75s cubic-bezier(0.165, 0.84, 0.44, 1) 1s both;
   -moz-animation: introContentFadeIn 0.75s cubic-bezier(0.165, 0.84, 0.44, 1) 1s both;
   animation: introContentFadeIn 0.75s cubic-bezier(0.165, 0.84, 0.44, 1) 1s both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003134}}
 .intro--init .intro__content:before {
   -webkit-animation: introContentBorder 2s cubic-bezier(0.165, 0.84, 0.44, 1) 2s both;
   -moz-animation: introContentBorder 2s cubic-bezier(0.165, 0.84, 0.44, 1) 2s both;
   animation: introContentBorder 2s cubic-bezier(0.165, 0.84, 0.44, 1) 2s both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003140}}
 .intro--init .intro__content-inner {
   -webkit-animation: introContentFadeIn 0.75s cubic-bezier(0.165, 0.84, 0.44, 1) 3s both;
   -moz-animation: introContentFadeIn 0.75s cubic-bezier(0.165, 0.84, 0.44, 1) 3s both;
@@ -1178,12 +1178,12 @@ th {
   }
 }
 @media screen and (max-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003215}}
   .intro {
     min-height: 27.77777777777778em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003218}}
   .intro__header,
   .intro__content {
     font-size: 2em;
@@ -1192,13 +1192,13 @@ th {
   }
 }
 @media screen and (max-width: 900px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003225}}
   .intro {
     padding: 0 2.7777777777777777em;
     min-height: 20.833333333333332em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003229}}
   .intro__header,
   .intro__content {
     font-size: 1.5em;
@@ -1207,26 +1207,26 @@ th {
   }
 }
 @media screen and (max-width: 700px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003236}}
   .intro__header {
     float: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003239}}
   .intro__content {
     padding-top: 0.925925925925926em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003242}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003242}}
   .intro__content {
     padding-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003245}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003245}}
   .intro__content:before {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003249}}
   .intro__content-inner {
     -webkit-animation: introContentFadeIn 0.75s cubic-bezier(0.165, 0.84, 0.44, 1) 1s both;
     -moz-animation: introContentFadeIn 0.75s cubic-bezier(0.165, 0.84, 0.44, 1) 1s both;
@@ -1234,7 +1234,7 @@ th {
   }
 }
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003256}}
   .intro {
     padding: 2.7777777777777777em;
     min-height: 20.833333333333332em;
@@ -1242,19 +1242,19 @@ th {
     left: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003263}}
   .intro__header {
     padding-top: 0.925925925925926em;
   }
 }
 @media screen and (max-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003268}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003268}}
   .intro {
     padding: 1.3888888888888888em;
   }
 }
 @media screen and (max-width: 320px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_intro\.scss}line{font-family:\00003273}}
   .intro__header,
   .intro__content {
     font-size: 1.3333333333333333em;
@@ -1267,7 +1267,7 @@ th {
 * @section Block
 * @author  laustdeleuran
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_embed\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_embed\.scss}line{font-family:\000037}}
 .embed {
   width: auto;
   height: auto;
@@ -1277,7 +1277,7 @@ th {
   bottom: 0;
   left: 5.555555555555555em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_embed\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_embed\.scss}line{font-family:\0000319}}
 .embed iframe,
 .embed object,
 .embed embed,
@@ -1287,7 +1287,7 @@ th {
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_embed\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_embed\.scss}line{font-family:\0000330}}
 .embed__title {
   margin: 0 auto;
   max-width: 15em;
@@ -1303,7 +1303,7 @@ th {
 }
 
 @media screen and (max-width: 1000px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_embed\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_embed\.scss}line{font-family:\0000346}}
   .embed__title {
     right: 2.7777777777777777em;
     bottom: 2.7777777777777777em;
@@ -1313,7 +1313,7 @@ th {
   }
 }
 @media screen and (max-width: 900px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_embed\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_embed\.scss}line{font-family:\0000355}}
   .embed__title {
     right: 3.703703703703704em;
     bottom: 3.703703703703704em;
@@ -1323,7 +1323,7 @@ th {
   }
 }
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_embed\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_embed\.scss}line{font-family:\0000364}}
   .embed__title {
     right: 0.925925925925926em;
     bottom: 0.925925925925926em;
@@ -1332,7 +1332,7 @@ th {
     line-height: 1.3888888888888888em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_embed\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_embed\.scss}line{font-family:\0000371}}
   .embed {
     top: 5.555555555555555em;
     left: 0;
@@ -1344,29 +1344,29 @@ th {
 * @section Block
 * @author  laustdeleuran
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_article\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_article\.scss}line{font-family:\000037}}
 .article {
   margin: 5.555555555555555em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_article\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_article\.scss}line{font-family:\0000312}}
 .article p {
   max-width: 27.77777777777778em;
 }
 
 @media screen and (max-width: 700px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_article\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_article\.scss}line{font-family:\0000317}}
   .article {
     margin: 5.555555555555555em 2.7777777777777777em;
   }
 }
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_article\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_article\.scss}line{font-family:\0000322}}
   .article {
     margin: 2.7777777777777777em;
   }
 }
 @media screen and (max-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_article\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_article\.scss}line{font-family:\0000327}}
   .article {
     margin: 1.3888888888888888em;
   }
@@ -1377,7 +1377,7 @@ th {
 * @section Block
 * @author  laustdeleuran
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\000038}}
 .quotes,
 .quotes li,
 .quotes blockquote {
@@ -1385,7 +1385,7 @@ th {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000315}}
 .quotes li {
   display: inline-block;
   max-width: 22.22222222222222em;
@@ -1393,30 +1393,30 @@ th {
   margin-right: 5.555555555555555em;
   vertical-align: top;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000323}}
 .quotes blockquote {
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000326}}
 .quotes p,
 .quotes cite {
   margin: 0 0 0 5.555555555555555em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000330}}
 .quotes p:before {
   content: "»";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000333}}
 .quotes p:after {
   content: "«";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000336}}
 .quotes cite {
   display: block;
   font-style: normal;
   font-weight: 700;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000342}}
 .quotes img {
   float: left;
   margin: 0 1.3888888888888888em 0 0;
@@ -1428,17 +1428,17 @@ th {
 }
 
 @media screen and (max-width: 500px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000353}}
   .quotes li {
     display: block;
     max-width: none;
     margin-right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000358}}
   .quotes img {
     display: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_quotes\.scss}line{font-family:\0000361}}
   .quotes p,
   .quotes cite {
     margin: 0;
@@ -1450,12 +1450,12 @@ th {
 * @section Block
 * @author  laustdeleuran
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_blog\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_blog\.scss}line{font-family:\0000310}}
 .blog__intro {
   padding-bottom: 5.555555555555555em;
   border-bottom: 1px solid #bbb;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_blog\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_blog\.scss}line{font-family:\0000314}}
 .blog__intro h1 a {
   color: inherit;
 }
@@ -1466,30 +1466,30 @@ th {
 * @section Block
 * @author  laustdeleuran
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\000037}}
 .post {
   margin: 5.555555555555555em;
   padding-bottom: 5.555555555555555em;
   border-bottom: 1px solid #bbb;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000319}}
 .post h1 a, .post h2 a, .post h3 a {
   color: inherit;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000323}}
 .post img {
   display: block;
   margin-bottom: 1.3888888888888888em;
   max-width: 27.77777777777778em;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000329}}
 .post iframe {
   margin-bottom: 1.3888888888888888em;
   max-width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000333}}
 .post .post__meta,
 .post ul,
 .post ol,
@@ -1498,51 +1498,51 @@ th {
 .post p {
   max-width: 27.77777777777778em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000342}}
 .post blockquote p:before {
   content: "»";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000345}}
 .post blockquote p:last-of-type:after {
   content: "«";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000349}}
 .post ul li {
   list-style: disc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000352}}
 .post ol li {
   list-style: upper-roman;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000355}}
 .post li {
   display: list-item;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000366}}
 .post__meta {
   max-width: 27.77777777777778em;
   overflow: hidden;
   font-weight: 100;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000372}}
 .post__meta a {
   margin-right: 0.5em;
   color: #bbb;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000377}}
 .post__meta .post__permalink {
   border: none;
   margin: 0;
   float: right;
   color: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000386}}
 .post__meta .post__permalink:hover {
   color: #56f29c;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\0000395}}
 .post .post__text blockquote {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1551,27 +1551,27 @@ th {
   padding: 0 2.7777777777777777em;
   color: #888;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003102}}
 .post .post__text blockquote p:before {
   content: "";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003105}}
 .post .post__text blockquote p:last-of-type:after {
   content: "";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003109}}
 .post .post__text img {
   max-width: 100%;
   height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003115}}
 .post__quote cite {
   display: block;
   font-style: normal;
   font-weight: 700;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003121}}
 .post__quote cite p {
   margin-top: 0;
   font-size: inherit;
@@ -1579,79 +1579,79 @@ th {
   font-family: inherit;
   line-height: inherit;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003129}}
 .post__quote cite p:before, .post__quote cite p:after {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003135}}
 .post__quote-inner {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003140}}
 .post__quote-inner:before {
   content: "“";
   position: absolute;
   right: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003146}}
 .post__quote-inner:after {
   content: "”";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003151}}
 .post__photo > a {
   border: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003156}}
 .post__photo--feature img {
   max-width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003159}}
 .post__photo--feature ~ .post__meta .post__notes-count, .post__photo--feature ~ .post__meta .post__permalink {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003164}}
 .post__notes {
   margin-top: 2.7777777777777777em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003167}}
 .post__notes ol,
 .post__notes li {
   list-style: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003171}}
 .post__notes li {
   overflow: hidden;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003175}}
 .post__notes img {
   float: left;
   margin-right: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003179}}
 .post__notes .avatar_frame {
   display: none;
 }
 
 @media screen and (max-width: 700px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003184}}
   .post {
     margin: 5.555555555555555em 2.7777777777777777em;
   }
 }
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003189}}
   .post {
     margin: 2.7777777777777777em;
     padding-bottom: 2.7777777777777777em;
   }
 }
 @media screen and (max-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_post\.scss}line{font-family:\00003195}}
   .post {
     margin: 1.3888888888888888em;
     padding-bottom: 1.3888888888888888em;
@@ -1663,19 +1663,19 @@ th {
 * @section Block
 * @author  laustdeleuran
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_pagination\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_pagination\.scss}line{font-family:\000037}}
 .pagination {
   margin: 5.555555555555555em;
 }
 
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_pagination\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_pagination\.scss}line{font-family:\0000311}}
   .pagination {
     margin: 2.7777777777777777em;
   }
 }
 @media screen and (max-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_pagination\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_pagination\.scss}line{font-family:\0000316}}
   .pagination {
     margin: 1.3888888888888888em;
   }
@@ -1686,7 +1686,7 @@ th {
 * @section Block
 * @author  laustdeleuran
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_gist\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_gist\.scss}line{font-family:\000037}}
 .gist {
   font-size: 0.7777777777777778em;
 }
@@ -1697,7 +1697,7 @@ th {
 * @section Block
 * @author  laustdeleuran
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_responsive-img\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_responsive-img\.scss}line{font-family:\000038}}
 .responsive-img__loading {
   padding: 0.6944444444444444em;
   position: absolute;
@@ -1712,7 +1712,7 @@ th {
 * @section Block
 * @author  laustdeleuran
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\000037}}
 .calendar,
 .calendar__days-of-the-week {
   -moz-transition: ease-out 0.5s;
@@ -1721,30 +1721,30 @@ th {
   transition: ease-out 0.5s;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000311}}
 .calendar {
   max-width: 27.77777777777778em;
   opacity: 0.5;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000317}}
 .calendar--init,
 .calendar--init .calendar__days-of-the-week {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000321}}
 .calendar--init .calendar__content {
   min-height: none;
   background-color: transparent;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000327}}
 .calendar__loading,
 .calendar__error {
   margin: 1.3888888888888888em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000331}}
 .calendar__content,
 .calendar__controls,
 .calendar__month,
@@ -1752,34 +1752,34 @@ th {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000337}}
 .calendar__content {
   min-height: 11.11111111111111em;
   text-align: center;
   background-color: #bbb;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000344}}
 .calendar__controls,
 .calendar__days {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000348}}
 .calendar__controls {
   display: block;
   width: 100%;
   color: #888;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000354}}
 .calendar__month {
   text-align: center;
   color: #000;
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000359}}
 .calendar__prev,
 .calendar__next {
   float: left;
@@ -1791,7 +1791,7 @@ th {
   cursor: pointer;
   outline: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000372}}
 .calendar__prev:focus, .calendar__prev:active, .calendar__prev:hover,
 .calendar__next:focus,
 .calendar__next:active,
@@ -1800,69 +1800,69 @@ th {
   color: #56f29c;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000380}}
 .calendar__next {
   float: right;
   text-align: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000384}}
 .calendar__days-of-the-week {
   overflow: hidden;
   opacity: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000389}}
 .calendar__header-day,
 .calendar__days .day {
   float: left;
   width: 14.285714285714285%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\0000395}}
 .calendar__days .day.event {
   color: #404040;
   background: #dddddd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003100}}
 .calendar__days .day.past {
   color: #bbb;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003103}}
 .calendar__days .day.past.event {
   background: #eeeeee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003106}}
 .calendar__days .day.calendar-dow-6, .calendar__days .day.calendar-dow-0 {
   color: #bbb;
   background: #eeeeee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003112}}
 .calendar__days .day.last-month, .calendar__days .day.next-month {
   visibility: hidden;
   opacity: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003117}}
 .calendar__days .day[title] {
   cursor: help;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003120}}
 .calendar__days .day.today, .calendar__days .day.today.event {
   color: #000;
   background: #56f29c;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003127}}
 .calendar__header-day {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003130}}
 .calendar__days .calendar-dow-1 {
   clear: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003133}}
 .calendar__today {
   display: inline-block;
   border-bottom: 1px solid transparent;
@@ -1876,7 +1876,7 @@ th {
   cursor: pointer;
   outline: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_calendar\.scss}line{font-family:\00003146}}
 .calendar__today:hover, .calendar__today:active, .calendar__today:focus {
   border-bottom-color: #00cd91;
 }
@@ -1887,7 +1887,7 @@ th {
 * @section Block
 * @author  laustdeleuran
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_block-list\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_block-list\.scss}line{font-family:\000037}}
 .block-list,
 .block-list > li {
   display: block;
@@ -1895,13 +1895,13 @@ th {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_block-list\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_block-list\.scss}line{font-family:\0000313}}
 .block-list > li {
   margin-bottom: 1.3888888888888888em;
   border-top: 0.0555555555555556em solid #bbb;
   padding-top: 1.3888888888888888em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_block-list\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_block-list\.scss}line{font-family:\0000318}}
 .block-list > li:first-child {
   border-top: none;
   padding-top: 0em;
@@ -1913,12 +1913,12 @@ th {
 * @section Block
 * @author  laustdeleuran
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\000039}}
 .project__meta {
   display: block;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000313}}
 .project__meta dt,
 .project__meta dd {
   display: block;
@@ -1926,26 +1926,26 @@ th {
   margin: 0 0.25em 0 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000320}}
 .project__meta dt {
   clear: left;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000325}}
 .project__meta dt:after {
   content: ': ';
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000328}}
 .project__meta dd + dd:before {
   content: ' & ';
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000332}}
 .project__title {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000335}}
 .project__figure {
   margin-bottom: 1.3888888888888888em;
   border: 5px solid #bbb;
@@ -1954,7 +1954,7 @@ th {
   clear: both;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000344}}
 .project__figure ul,
 .project__figure li,
 .project__figure img {
@@ -1962,7 +1962,7 @@ th {
   margin: 0;
   list-style: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/laustdeleuran\/Sites\/ljd-laustdeleuran\.github\.io\/_src\/styles\/project\/_project\.scss}line{font-family:\0000351}}
 .project__figure img {
   max-width: 100%;
   height: auto;
