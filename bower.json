@@ -1,23 +1,13 @@
 {
-	"name": "ljd.dk - Laust Johan Deleuran",
-	"dependencies": {
-		"almond": "latest",
-		"requirejs": "latest",
-		"jquery": "~1.9",
-		"modernizr": "latest",
-		"moment": "2.5.1",
-		"clndr": "latest",
-		"underscore": "latest",
-		"imagesloaded": "~3.0.4"
-	},
-	"resolutions": {
-		"almond": "latest",
-		"requirejs": "latest",
-		"jquery": "~1.9",
-		"modernizr": "latest",
-		"moment": "2.5.1",
-		"clndr": "latest",
-		"underscore": "latest",
-		"imagesloaded": "~3.0.4"
-	}
+  "name": "ljd.dk",
+  "dependencies": {
+    "almond": "latest",
+    "requirejs": "latest",
+    "jquery": "~1.9",
+    "modernizr": "latest",
+    "moment": "2.5.1",
+    "clndr": "latest",
+    "underscore": "latest",
+    "imagesloaded": "~3.0.4"
+  }
 }
