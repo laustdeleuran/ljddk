@@ -286,7 +286,6 @@ export const type = css`
 	${displayText}
 	font-size: 45px;
 	line-height: ${Typography.LINE_HEIGHT * 4}px;
-	margin: 0;
 	overflow: hidden;
 
 	@media screen and (max-width: 800px) {
@@ -301,11 +300,18 @@ export const type = css`
 
 export const figureHeader = css`
 	${type}
-	margin-bottom: ${Typography.LINE_HEIGHT}px;
+	margin-bottom: ${Typography.LINE_HEIGHT * 4}px;
+
+	@media screen and (max-width: 800px) {
+		margin-bottom: 0;
+	}
 `;
 
 export const figureText = css`
 	${type}
+	margin-top: 0;
+	margin-bottom: 0;
+
 	@media screen and (max-width: 500px) {
 		margin-bottom: ${Typography.LINE_HEIGHT}px;
 	}
