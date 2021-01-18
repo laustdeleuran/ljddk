@@ -5,7 +5,7 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 /** @jsx jsx */
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, useState } from 'react';
 import { jsx, Global, css } from '@emotion/react';
 import { graphql, Link, useStaticQuery } from 'gatsby';
 
@@ -17,6 +17,8 @@ const Layout: FunctionComponent<{
 	bgColor?: string;
 	hasNavigation?: boolean;
 }> = ({ bgColor, children, hasNavigation = true }) => {
+	const [showNav, setShowNav] = useState(false);
+	console.log(showNav);
 	const hasBgColor = !!bgColor;
 	const { site } = useStaticQuery(graphql`
 		query {
@@ -48,17 +50,31 @@ const Layout: FunctionComponent<{
 					${hasBgColor ? `html, body { background-color: ${bgColor};` : ''}
 				`}
 			/>
-			<header css={style.header(bgColor || Color.WHITE)}>
+			<header css={style.header(bgColor || Color.WHITE, showNav)}>
 				<Link css={style.headerTitleLink(hasBgColor)} to="/">
 					<h1 css={style.headerType}>LJD</h1>
 				</Link>
 				{hasNavigation ? (
 					<nav css={style.nav}>
-						{site.siteMetadata.links.map(({ title, link }) => (
-							<Link css={style.navLink(hasBgColor)} key={link} to={link}>
-								{title}
-							</Link>
-						))}
+						<a
+							href="#navigation"
+							title={`${showNav ? 'Hide' : 'Show'} navigation`}
+							css={style.navToggle(showNav, hasBgColor)}
+							onClick={(event) => {
+								event.preventDefault();
+								setShowNav(!showNav);
+							}}
+						>
+							<figure />
+							Menu
+						</a>
+						<div css={style.navInner}>
+							{site.siteMetadata.links.map(({ title, link }) => (
+								<Link css={style.navLink(hasBgColor)} key={link} to={link}>
+									{title}
+								</Link>
+							))}
+						</div>
 					</nav>
 				) : null}
 			</header>

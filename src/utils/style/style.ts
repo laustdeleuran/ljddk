@@ -338,7 +338,7 @@ export const homeNavLink = css`
 	color: ${Color.BLACK};
 	display: block;
 	float: left;
-	font-size: ${Scale.TABLET[2]}px;
+	font-size: ${Scale.DESKTOP[2]}px;
 	margin-bottom: ${Typography.LINE_HEIGHT}px;
 
 	&:hover,
@@ -348,5 +348,17 @@ export const homeNavLink = css`
 
 	&:focus {
 		outline-color: ${Color.ACTION_DARK};
+	}
+
+	@media screen and (max-width: 1000px) {
+		font-size: ${Scale.TABLET[2]}px;
+	}
+
+	@media screen and (max-width: 700px) {
+		font-size: ${Scale.MOBILE[1]}px;
+	}
+
+	@media screen and (max-width: 500px) {
+		font-size: ${Scale.MOBILE[2]}px;
 	}
 `;
