@@ -63,7 +63,6 @@ export const main = (hasNavigation: boolean) => css`
 
 export const nav = css`
 	display: flex;
-	position: relative;
 `;
 
 export const navLink = (hasBgColor) => css`
@@ -173,7 +172,7 @@ export const navInner = css`
 		height: calc(100vh - ${Unit.HALF}px);
 		left: 0;
 		padding: 0 ${Unit.QUART}px;
-		position: fixed;
+		position: absolute;
 		top: ${Unit.HALF}px;
 		width: 100vw;
 	}
