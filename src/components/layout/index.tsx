@@ -18,7 +18,6 @@ const Layout: FunctionComponent<{
 	hasNavigation?: boolean;
 }> = ({ bgColor, children, hasNavigation = true }) => {
 	const [showNav, setShowNav] = useState(false);
-	console.log(showNav);
 	const hasBgColor = !!bgColor;
 	const { site } = useStaticQuery(graphql`
 		query {
